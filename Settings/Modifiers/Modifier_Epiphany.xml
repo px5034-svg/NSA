@@ -1,0 +1,14 @@
+<ModifierDefs><List>
+	<Modifier Name="Modifier_Epiphany_Crafting" Type="Normal">
+		<DisplayName>Epiphany</DisplayName>
+		<Desc>Epiphany Effect Active</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li AddV="1" />
+			<li AddV="1" />
+			<li AddV="1" />
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

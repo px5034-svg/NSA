@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_ec0319559f0a4740">
+      <DisplayName>luck</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties />
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

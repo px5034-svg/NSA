@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_e5f9fc46863b41dc">
+      <DisplayName>LimitbreaK</DisplayName>
+      <Desc>Increases breakthrough chance by 200%</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>9000</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddP="200" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

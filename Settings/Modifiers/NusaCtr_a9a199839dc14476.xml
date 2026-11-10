@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_a9a199839dc14476">
+      <DisplayName>Learning</DisplayName>
+      <Desc>Im Learnin</Desc>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      <Skills />
+      <Properties>
+        <li AddV="2" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

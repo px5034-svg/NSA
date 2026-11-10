@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_5f7da3ff08ee4be3">
+      <DisplayName>Slaves</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills>
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+      </Skills>
+      <Properties>
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

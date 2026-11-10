@@ -1,0 +1,17 @@
+<ModifierDefs>
+	<List>
+		<Modifier Name="NusaCtr_SpiritSeedSuper">
+			<DisplayName>Spirit Seed ++</DisplayName>
+			<MaxStack>0</MaxStack>
+			<Duration>-1</Duration>
+			
+			<Properties>
+				<li AddV="50000" />
+			</Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>
+
+
+
+    

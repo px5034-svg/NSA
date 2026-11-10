@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_dce791ad88904801">
+      <DisplayName>God Slayer</DisplayName>
+      <Desc>go against the will of heaven and overcome tribulations.</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddP="400" />
+        <li AddV="9999999" />
+        <li AddP="9999999" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

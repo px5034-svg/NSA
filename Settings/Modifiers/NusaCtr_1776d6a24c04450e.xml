@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_1776d6a24c04450e">
+      <DisplayName>Core</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddV="10000" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

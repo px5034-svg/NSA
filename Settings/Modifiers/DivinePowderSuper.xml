@@ -1,0 +1,14 @@
+﻿<ModifierDefs>
+	<List>
+		<Modifier Name="NusaCtr_DivinePowderSuper">
+			<DisplayName>DivinePowder ++</DisplayName>
+			<MaxStack>1</MaxStack>
+			<Duration>36000</Duration>
+			<Color>64BDBD</Color>
+			
+			<Properties>
+				<li AddP="50" />
+			</Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>

@@ -1,0 +1,13 @@
+﻿<ModifierDefs>
+	<List>
+		<Modifier Name="NusaCtr_WickedFlux">
+			<DisplayName>Wicked Flux +</DisplayName>
+			<MaxStack>0</MaxStack>
+			<Duration>-1</Duration>
+			
+			<Properties>
+				<li AddP="6.25" />
+			</Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>

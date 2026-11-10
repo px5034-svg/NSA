@@ -1,0 +1,14 @@
+<ModifierDefs>
+	<List>
+		<Modifier Name="NusaCtr_EternityPill">
+			<DisplayName>Eternity Pill +</DisplayName>
+			<MaxStack>0</MaxStack>
+			<Duration>-1</Duration>
+			
+      
+			<Properties>
+				<li AddV="1080" />
+			</Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>

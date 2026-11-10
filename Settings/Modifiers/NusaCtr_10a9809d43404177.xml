@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_10a9809d43404177">
+      <DisplayName>Dragon God</DisplayName>
+      <Desc>Dragon God's blessing hong meng tian gang technique that was given to Luo Zheng making the body indestructable and with the power of the stars , Elixir variant. Best for physical cultivators. </Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills>
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+      </Skills>
+      <Properties>
+        <li AddV="1000" />
+        <li AddV="1000" />
+        <li AddV="10" />
+        <li AddV="5" />
+        <li AddV="100" />
+        <li AddV="1000" />
+        <li AddV="100" />
+        <li AddV="2500" />
+        <li AddP="1000" />
+        <li AddV="5" />
+        <li AddV="1000" />
+        <li AddV="1000" />
+        <li AddV="100" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

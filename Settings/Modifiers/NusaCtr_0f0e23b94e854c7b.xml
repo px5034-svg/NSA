@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_0f0e23b94e854c7b">
+      <DisplayName>Manual</DisplayName>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      <Skills>
+        <li />
+        <li />
+        <li />
+        <li />
+      </Skills>
+      <Properties>
+        <li AddV="100" />
+        <li AddV="20" />
+        <li AddV="50" />
+        <li AddV="10" />
+        <li AddV="20" />
+        <li AddV="20" />
+        <li AddV="100" />
+        <li AddP="100" />
+        <li AddV="50" />
+        <li AddV="10" />
+        <li AddV="10" />
+        <li AddV="100" />
+        <li AddV="-1000" />
+        <li AddP="-500" />
+        <li AddP="100" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

@@ -1,0 +1,18 @@
+<ModifierDefs>
+	<List>
+		<Modifier Name="NusaCtr_RedGinseng">
+			<DisplayName>Red Ginseng +</DisplayName>
+			<MaxStack>0</MaxStack>
+			<Duration>-1</Duration>
+			<Color>821E37</Color>
+			
+			<Properties>
+				<li AddV="1000" />
+			</Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>
+
+
+
+    

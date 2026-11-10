@@ -1,0 +1,28 @@
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_ReviveNPC" Type="Normal">
+      <DisplayName>Revive NPC</DisplayName>
+      <Desc>Select an NPC on the map to revive it.</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>1</Duration>
+      <Display>0</Display>
+      <LuaClassName>modifier_nusactr_revive</LuaClassName>
+    </Modifier>
+    <Modifier Name="NusaCtr_DelayTribulation" Type="Normal">
+      <DisplayName>Delay Heavenly Tribulation</DisplayName>
+      <Desc>Delay the divine Heavenly Tribulation cooldown by 100 days.</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>1</Duration>
+      <Display>0</Display>
+      <LuaClassName>modifier_nusactr_tribulation</LuaClassName>
+    </Modifier>
+    <Modifier Name="NusaCtr_TakeSecretTreasure" Type="Normal">
+      <DisplayName>Take secret treasure</DisplayName>
+      <Desc>Select a secret treasure (MiBao) on the map and bind it to the target NPC.</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>1</Duration>
+      <Display>0</Display>
+      <LuaClassName>modifier_nusactr_baiyanlang</LuaClassName>
+    </Modifier>
+  </List>
+</ModifierDefs>

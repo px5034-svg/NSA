@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_3f7be1d37eda4659">
+      <DisplayName>Scorcery</DisplayName>
+      <Desc>Improves Spellpower by 50% and spell level by 5</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddP="0.25" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

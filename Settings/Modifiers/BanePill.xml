@@ -1,0 +1,14 @@
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_BanePill">
+      <DisplayName>Bane Pill +</DisplayName>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      <Properties>
+        <li AddV="-200" />
+      </Properties>
+    </Modifier>
+  </List>
+</ModifierDefs>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_4094c1d457324ac9">
+      <DisplayName>Limitless</DisplayName>
+      <Desc>Breakthrough chance now set at 10000% to make sure you get that breakthrough and save time. </Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>9000</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddP="10000" />
+        <li AddP="10000" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

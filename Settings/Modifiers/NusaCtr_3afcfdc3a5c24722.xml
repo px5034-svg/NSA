@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_3afcfdc3a5c24722">
+      <DisplayName>Bread</DisplayName>
+      <Desc>Bread</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>600</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddV="50" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

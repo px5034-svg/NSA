@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_291e0e55bfb348fb">
+      <DisplayName>Heaven</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Skills>
+        <li />
+        <li />
+        <li />
+      </Skills>
+      <Properties>
+        <li AddV="10000" />
+        <li AddV="20" />
+        <li AddV="100" />
+        <li AddV="100" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

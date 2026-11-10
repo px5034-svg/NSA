@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_7af479dd47f44ceb">
+      <DisplayName>Elixer</DisplayName>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      <Skills />
+      <Properties>
+        <li AddV="50" />
+        <li AddP="100" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

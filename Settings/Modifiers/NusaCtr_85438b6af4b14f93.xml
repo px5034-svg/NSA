@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_85438b6af4b14f93">
+      <DisplayName>God Tier</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <FromModifier>NusaCtr_65ef67dd212c4942</FromModifier>
+      <Skills>
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+      </Skills>
+      <Properties>
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="-10" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+        <li AddV="5" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

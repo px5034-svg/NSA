@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_4d8bd4d539a14969">
+      <DisplayName>Art Multi</DisplayName>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      <Skills />
+      <Properties>
+        <li AddV="3" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

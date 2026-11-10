@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_b7774cbdfb7646b1">
+      <DisplayName>Dragon God</DisplayName>
+      <Desc>Dragon God's immortal body to become indestructable and rival the stars, the dragons vitality offers cultivator with drastic increase in Max Qi, spell power, artifact power, and lifespan of 1000. </Desc>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      <Skills>
+        <li />
+        <li />
+        <li />
+      </Skills>
+      <Properties>
+        <li AddV="5000" />
+        <li AddV="1000" />
+        <li AddV="1000" />
+        <li AddV="1000" />
+        <li AddV="6" />
+        <li AddP="5000" />
+        <li AddV="1000" />
+        <li AddV="1000" />
+        <li AddP="400" />
+        <li AddP="100" />
+        <li AddP="500" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

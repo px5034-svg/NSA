@@ -1,0 +1,236 @@
+<ModifierDefs><List>
+
+	<Modifier Name="Dan_HeavenflowElixir" Type="Normal">
+		<DisplayName>Heavenflow Elixir</DisplayName>
+		<Desc>Kecepatan Kultivasi Naik 50% selama 12 jam</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>60000</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2.5"/>
+		</Properties>
+	</Modifier>
+		<Modifier Name="Dan_HeavenboundRevivalPill" Type="Normal">
+		<DisplayName>HeavenboundRevivalPill</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>16800</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/>
+		</Properties>
+	</Modifier> 	
+		<Modifier Name="Modifier_Dan_VitalResinEssencePowder" Type="Normal">
+		<DisplayName>VitalResinEssencePowder</DisplayName>
+		<Desc>Meningkatkan kemampuan tubuh untuk memproduksi esensi dalam waktu 28 hari, meningkatkan tingkat konsumsi rasa kenyang, dan memperbaiki tingkat konversi esensi/stamina,Item Ini sudah diperkuat setidaknya\n11.000</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1680000</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<SpecialFlags>
+			<li>FLGH_NOTEATPRACTICEFOOD</li>
+		</SpecialFlags>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="0.1"/>
+			<li Name="NutritionToJingYuanK" AddV="0.9"/>
+		</Properties>
+	</Modifier> 
+		<Modifier Name="Dan_Mind-CleansingPurityPill" Type="Normal">
+		<DisplayName>Mind-CleansingPurityPill</DisplayName>
+		<Desc>Mengonsumsi Pill Mind-CleansingPurityPill menenangkan pikiran sampai batas tertentu dan mengurangi fluktuasi suasana hati dalam sehari.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>999999</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="5000"/>
+			<li Name="MedicineResistance" AddV="0" />
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.5"/>
+		</Properties>
+	</Modifier> 
+			<Modifier Name="Modifier_Dan_DilutedMindResinPowder" Type="Normal">
+		<DisplayName>DilutedMindResinPowder</DisplayName>
+		<Desc>DilutedMindResinPowderEffect: Dalam 8  tahun (Menambah 500 mental).</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>9999999</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<SpecialFlags>
+			<li>FLGH_NOTEATPRACTICEFOOD</li>
+		</SpecialFlags>
+		<Properties>
+			<li Name="MedicineResistance" AddV="0"/>
+		<li Name="GlobalEfficiency" AddP="-0.5"/>
+			<li Name="HappyConsumeConstant" AddP="-1"/>
+			<li Name="MindStateBaseValue" AddV="5000"/>
+			<li Name="EmotionAmplificationFactor" AddP="-0.10"/>
+		</Properties>
+	</Modifier>
+		<Modifier Name="Dan_CondensedNutrientPill" Type="Normal">
+		<DisplayName>CondensedNutrientPill</DisplayName>
+		<Desc>CondensedNutrientPillEffect: Kultivator Tidak Akan Mengalami Lapar selama 28hari (Food Level 6).</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>16800</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+		<li Name="NutritionConsumeConstant" AddP="-1"/>
+			<li Name="WaterConsumeConstant" AddP="-1"/>
+			<li Name="NutritionWaterAutoRecover" AddV="0.4"/>
+		</Properties>
+	</Modifier>
+		<Modifier Name="Modifier_Dan_Soul-AnchorAscensionPill" Type="Normal">
+      <DisplayName>Soul-AnchorAscensionPill</DisplayName>
+      <Desc>Menambahkan satu slot ke jumlah maksimum senjata Artefak.</Desc>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      <Display>0</Display>
+      <Properties>
+        <li Name="NpcFight_FabaoNum" AddV="1"/>
+      </Properties>
+    </Modifier>    
+    <Modifier Name="Modifier_SpiritCoreExpansionPill" Type="Normal">
+		<DisplayName>SpiritCoreExpansionPill</DisplayName>
+		<Desc>SpiritCoreExpansionPillEffect: Energi spiritual/Qi maksimum ditingkatkan sebesar 100.000 poin.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddP="20" AddV="100000" BAddP="0" BAddV="0" Type="1" />
+      </Properties>
+	</Modifier>
+	    <Modifier Name="Modifier_RealmInsightInnerPill" Type="Normal">
+		<DisplayName>RealmInsightInnerPill</DisplayName>
+		<Desc>RealmInsightInnerPillEffect: Energi spiritual/Qi maksimum ditingkatkan sebesar 200.000 poin.</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+      <Properties>
+        <li Name="NpcLingMaxValue" AddP="20" AddV="2000000" BAddP="0" BAddV="0" Type="1" />
+      </Properties>
+	</Modifier>
+	<Modifier Name="Modifier_VitalBloomEssence" Type="Normal">
+		<DisplayName>VitalBloomEssence</DisplayName>
+		<Desc>VitalBloomEssenceEffect: Secara signifikan mempercepat pemulihan cedera dalam waktu singkat.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="RecoveryPower" AddP="3"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Item_GoldenSustenanceFruit" Type="Normal">
+		<DisplayName>GoldenSustenanceFruit</DisplayName>
+		<Desc>GoldenSustenanceFruitEffect: Mencegah rasa lapar dan kelelahan selama satu hari.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>600</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="-1"/>
+			<li Name="FatigueConsumeConstant" AddP="-1"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="Modifier_Item_TerrafluxVitalCream" Type="Normal">
+		<DisplayName>TerrafluxVitalCream</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>100</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="RecoveryPower" AddP="5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Modifier_Item_SereneSpiritLeaf" Type="Normal">
+		<DisplayName>SereneSpiritLeaf</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="500"/>
+			<li Name="EmotionAmplificationFactor" AddP="-0.50"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Dan_BlissfogTranquilityPill" Type="Normal">
+		<DisplayName>BlissfogTranquilityPill</DisplayName>
+		<Desc>BlissfogTranquilityPillEffect: Membuat karakter larut dalam kebahagiaan selama dua hari, Dan Menaikan efisiensi kerja Karakter 50%.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="0.5"/>
+			<li Name="HappyConsumeConstant" AddP="-1"/>
+		</Properties>
+		<Moods>
+			<li>Dan_BlissfogTranquilityPill</li>
+		</Moods>
+	</Modifier> 
+	<Modifier Name="Dan_InsightCatalystPill" Type="Normal">
+		<DisplayName>InsightCatalystPill</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>3600</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="PracticeRateAddPFromDan" AddP="0.5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Dan_QiSustenancePill" Type="Normal">
+		<DisplayName>QiSustenancePill</DisplayName>
+		<Desc>QiSustenancePillEffect: Memberikan peningkatan kemampuan untuk menyerap Qi dalam waktu 3 hari sebesar 50%,Dan secara otomatis memulihkan asupan makanan pengguna.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NutritionWaterAutoRecover" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Dan_QiCirculationPill" Type="Normal">
+		<DisplayName>QiCirculationPill</DisplayName>
+		<Desc>QiCirculationPillEffect: Meningkatkan Laju pemulihan QI sebesar 1000% selama 1 hari.</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1200</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="Dan_FivefoldAscensionPill" Type="Normal">
+		<DisplayName>FivefoldAscensionPill</DisplayName>
+		<Desc></Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Skills>
+        <li Name="Fight" Level="20" LevelOver="75" Type="1" />
+        <li Name="Qi" Level="20" LevelOver="0" Type="1" />
+        <li Name="SocialContact" Level="20" LevelOver="75" Type="1" />
+        <li Name="Medicine" Level="20" LevelOver="0" Type="1" />
+        <li Name="Cooking" Level="20" LevelOver="0" Type="1" />
+        <li Name="Building" Level="20" LevelOver="0" Type="1" />
+        <li Name="Farming" Level="20" LevelOver="0" Type="1" />
+        <li Name="Mining" Level="20" LevelOver="0" Type="1" />
+        <li Name="Art" Level="20" LevelOver="0" Type="1" />
+        <li Name="Manual" Level="20" LevelOver="75" Type="1" />
+        <li Name="DouFa" Level="20" LevelOver="75" Type="1" />
+        <li Name="DanQi" Level="20" LevelOver="75" Type="1" />
+        <li Name="Fabao" Level="20" LevelOver="75" Type="1" />
+        <li Name="FightSkill" Level="20" LevelOver="75" Type="1" />
+        <li Name="Barrier" Level="20" LevelOver="75" Type="1" />
+        <li Name="Zhen" Level="20" LevelOver="75" Type="1" />
+      </Skills>
+		<BaseFive>1,1,1,1,1</BaseFive>
+	</Modifier> 
+	
+	
+</List></ModifierDefs>

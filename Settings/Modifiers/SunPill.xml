@@ -1,0 +1,17 @@
+<ModifierDefs>
+	<List>
+		<Modifier Name="NusaCtr_SunPill">
+			<DisplayName>Sun Pill +</DisplayName>
+			<MaxStack>0</MaxStack>
+			<Duration>-1</Duration>
+			
+			<Properties>
+				<li AddP="80" />
+			</Properties>
+		</Modifier>
+	</List>
+</ModifierDefs>
+
+
+
+    

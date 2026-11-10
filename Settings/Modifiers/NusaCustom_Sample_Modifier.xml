@@ -1,0 +1,17 @@
+<ModifierDefs><List>
+	<Modifier Name="Modifier_SamplePills" Type="Normal">
+		<DisplayName>SamplePills</DisplayName>
+		<Desc>SamplePillEffect: 28 Hari</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>16800</Duration>
+		<Sync>1</Sync>
+		<Display>1</Display>
+		<Properties>
+			<li Name="LingAbsorbSpeed" AddP="10"/>
+        <li Name="NpcLingMaxValue" AddV="500"/>
+        <li Name="PracticeRateAddPFromDan" AddP="400" AddV="0" BAddP="0" BAddV="0" Type="2" />
+        <li Name="NeckCountdownAddV" AddP="0" AddV="9999999" BAddP="0" BAddV="0" Type="1" />
+        <li Name="NeckCountdownAddV" AddP="9999999" AddV="0" BAddP="0" BAddV="0" Type="2" />
+		</Properties>
+	</Modifier>
+</List></ModifierDefs>

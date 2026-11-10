@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_fef5aeee91594c99">
+      <DisplayName>GodLike</DisplayName>
+      <Desc>Become the all powerful!</Desc>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      <Skills>
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+        <li />
+      </Skills>
+      <Properties>
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+        <li AddV="9999999" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

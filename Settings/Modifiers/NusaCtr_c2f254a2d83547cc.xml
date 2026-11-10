@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_c2f254a2d83547cc">
+      <DisplayName>Break</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>600</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddV="100" />
+        <li AddV="100" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

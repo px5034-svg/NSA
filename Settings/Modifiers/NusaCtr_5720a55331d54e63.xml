@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_5720a55331d54e63">
+      <DisplayName>Alchemyx2</DisplayName>
+      <Desc>Bonus</Desc>
+      <MaxStack>0</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      <Skills />
+      <Properties>
+        <li AddP="0.5" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

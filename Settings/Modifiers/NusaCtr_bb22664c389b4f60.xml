@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_bb22664c389b4f60">
+      <DisplayName>Cultivatio</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddP="300" />
+        <li AddV="200" />
+        <li AddV="100" />
+        <li AddV="100" />
+        <li AddV="20" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

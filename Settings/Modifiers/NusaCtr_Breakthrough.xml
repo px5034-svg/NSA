@@ -1,0 +1,12 @@
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_Breakthrough" Type="Normal">
+      <DisplayName>Instant breakthrough</DisplayName>
+      <Desc>Help NPC pass a supported cultivation bottleneck</Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>1</Duration>
+      <Display>0</Display>
+      <LuaClassName>modifier_nusactr_brokenneck</LuaClassName>
+    </Modifier>
+  </List>
+</ModifierDefs>

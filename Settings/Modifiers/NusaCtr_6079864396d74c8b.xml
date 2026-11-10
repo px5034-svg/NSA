@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_6079864396d74c8b">
+      <DisplayName>Max Qi</DisplayName>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddV="200000" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>

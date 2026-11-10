@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModifierDefs>
+  <List>
+    <Modifier Name="NusaCtr_0c211fe2bf894676">
+      <DisplayName>HTT Resist</DisplayName>
+      <Desc>Increase your Highest Temperature Tolerance by +50 </Desc>
+      <MaxStack>1</MaxStack>
+      <Duration>-1</Duration>
+      
+      
+      
+      <Display>1</Display>
+      <Skills />
+      <Properties>
+        <li AddV="50" />
+      </Properties>
+      
+    </Modifier>
+  </List>
+</ModifierDefs>
