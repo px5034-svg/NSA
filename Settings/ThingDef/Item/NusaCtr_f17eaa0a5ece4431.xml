@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_f17eaa0a5ece4431" Parent="DanBase">
+      <ElementKind>Tu</ElementKind>
+      <Element>
+        <Kind>Tu</Kind>
+      </Element>
+      <ThingName>Spirit Bread</ThingName>
+      <Rate>3</Rate>
+      <Desc>A loaf of bread infused with Qi. It is said that a sect leader once at some of these and died. </Desc>
+      <TexPath>res/Sprs/object/object_cake</TexPath>
+      <Color>ccffff</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Cake" count="2" />
+            <Item name="Item_MagicHerb" count="20" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <li />
+            <BuyPrice Value="1000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="1500" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="500" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>50</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>100</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>4000</Ling>
+          <Modifier>NusaCtr_3afcfdc3a5c24722</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>ccffff</Color>
+      </Light>
+      <ProduceMode>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>3f718257-eda5-4da5-8642-885f40a05a55</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_f17eaa0a5ece4431</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

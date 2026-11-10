@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_a57f90461b194960" Parent="DanBase">
+      <ElementKind>Mu</ElementKind>
+      <Element>
+        <Kind>Mu</Kind>
+      </Element>
+      <ThingName>Apple of Eden</ThingName>
+      <Rate>12</Rate>
+      <Desc>The Apples were designed to be able to project images, conjure realistic illusions, and even turn thought into reality; hence, they were used by many great rulers throughout history </Desc>
+      <TexPath>res/Sprs/object/object_AGinkgobiloba</TexPath>
+      <Color>cc0033</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Ginkgo" count="1" />
+            <Item name="Item_Dan_Ling" count="5" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="10000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>30</Nutrition>
+          <Water>10</Water>
+          <PracticeNutrition>200</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0.9</Fesistance>
+          <Ling>20000</Ling>
+          <Modifier>NusaCtr_3f7be1d37eda4659</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>cc0033</Color>
+      </Light>
+      <ProduceMode>
+        <DropRate>0.2</DropRate>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>eec9e96d-45fe-4a72-a46c-a0d4b9a68a54</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_a57f90461b194960</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

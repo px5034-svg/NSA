@@ -1,0 +1,317 @@
+﻿<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_SpiritualResinEssence" Parent="DrugBase">
+	<ThingName>Spiritual Resin Essence</ThingName>
+	<TexPath>res/Sprs/object/object_lingmuxuejie01</TexPath>
+	<MaxRandomInFightMap>100</MaxRandomInFightMap>
+	<Desc>Esensi resin berbentuk gel yang diekstrak dari Akar Spiritual. Saat diberi nutrisi, zat ini mampu memulihkan Stamina tubuh secara langsung.</Desc>
+	<Tags>
+		<Tag Name="PracticeFood" Level="6"/>
+		<Tag Name="Item_LingMuXueJie" Level="1"/>
+	</Tags>
+	<MaxHitPoints>500</MaxHitPoints>
+	<Rate>7</Rate>
+	<Beauty>10</Beauty>
+	<ElementKind>None</ElementKind>
+	
+	<IllustratedHandLabel>DOther</IllustratedHandLabel>
+	<Item Lable="Drug">
+		<Prices>
+			<TalkType>2</TalkType>
+			<BaseCount>10</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="30000"/>
+				<SalePrice Value="40" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="30000" />
+				<SalePrice Value="60" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="30000" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<FabaoSuffix>Sand, Crystal, Dust, Powder, Miasma</FabaoSuffix>
+		<PhysicalLables>
+			<li>Gravel</li>
+		</PhysicalLables>
+			<BeMade>
+				<WorkToMake>3</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>0</Water>
+			<PracticeNutrition>200</PracticeNutrition>		
+		</Food>	
+		<BeMaterial>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>8</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>15</ElementPowerWhenBeMain>
+			<LingNumberRate>0.8</LingNumberRate>
+		</BeMaterial>
+	</Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>45</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>None</Kind>
+		<Value>0</Value>         
+		<Radius>1</Radius>
+		<Failing>1</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_VitalBloomEssence" Parent="DrugBase">
+	<ThingName>Vital Bloom Essence</ThingName>
+	<TexPath>res/Sprs/object/object_dimulingye02</TexPath>
+	<TexScale>0.5</TexScale>	
+	<MaxRandomInFightMap>10</MaxRandomInFightMap>
+	<Desc>Tetesan embun yang terbentuk di Rumput Spiritual, kaya akan kekuatan hidup murni. Embun ini akan cepat menguap setelah dipisahkan dari sumbernya. Mengonsumsinya dapat memulihkan Stamina dalam jumlah besar serta meningkatkan laju pemulihan tubuh untuk waktu singkat.</Desc>
+	<Tags>
+		<Tag Name="Tame" Level="50"/>
+		<Tag Name="TameLing" Level="1"/>
+	</Tags>
+	<ElementKind>Shui</ElementKind>
+	
+	<Item>
+		<FabaoSuffix>Liquid, Water, Fog, Smoke, Mist</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<BeMade>
+				<WorkToMake>3</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>Modifier_VitalBloomEssence</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<FunAddion>0</FunAddion>
+			<PracticeNutrition>150</PracticeNutrition>
+		</Food>
+		<Rot>
+			<RotSpeed>0.5</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-80</TempMin>
+			<LingMax>800</LingMax>
+		</Rot>
+	</Item>
+	
+		<Element>
+			<Kind>Shui</Kind>
+		</Element>
+	<From>spiritual soil</From>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_GoldenSustenanceFruit" Parent="DrugBase">
+	<ThingName>Golden Sustenance Fruit</ThingName>
+	<TexPath>res/Sprs/object/object_gaomijiangguo</TexPath>	
+	<Desc>Buah spiritual berwarna keemasan yang menyimpan energi vital tinggi. Mengonsumsinya membuat tubuh terbebas dari rasa lapar dan kelelahan selama satu hari. Namun, buah ini akan cepat membusuk setelah dipetik (Rekomendasi: Dikonsumsi langsung setelah dibuat).</Desc>
+	<Tags>
+		<Tag Name="Food" Level="2"/>
+		<Tag Name="DiscipleFood" Level="2"/>
+		<Tag Name="Tame" Level="35"/>
+		<Tag Name="TameVeg" Level="1"/>
+	</Tags>
+	<ElementKind>Shui</ElementKind>
+	<MaxRandomInFightMap>10</MaxRandomInFightMap>
+	<IllustratedHandLabel>Food</IllustratedHandLabel>
+	<Item>
+		<PhysicalLables>
+			<li>Light1</li>
+			<li>LowDensity1</li>
+		</PhysicalLables>
+		<BeMade>
+				<WorkToMake>3</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		<FabaoSuffix>Fruit, Bead, Bolus, Ball</FabaoSuffix>
+		<BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+		</BeMaterial>
+		<Elixir>
+			<Modifier>Modifier_Item_GoldenSustenanceFruit</Modifier>
+		</Elixir>
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>40</Nutrition>
+			<FunAddion>25</FunAddion>
+		</Food>
+		<Rot>
+			<RotSpeed>0.15</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>-50</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	
+	<Element>
+			<Kind>Shui</Kind>
+	</Element>
+	<Light>
+		<Value>15</Value>
+		<Failing>0.8</Failing>
+		<FailRadius>1</FailRadius>
+		<Radius>1</Radius>
+		<Color>FFCF00FF</Color>
+	</Light>
+	<From>plants</From>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_TerrafluxVitalCream" Parent="DrugBase">
+	<ThingName>Terraflux Vital Cream</ThingName>
+	<MaxRandomInFightMap>1</MaxRandomInFightMap>
+	<TexPath>res/Sprs/object/object_lingsuizhi01</TexPath>	
+	<Desc>Esensi berbentuk krim yang terbentuk dari koagulasi Fluks Bumi murni. menyembuhkan seluruh luka sepenuhnya.</Desc>
+	<Tags>
+		<Tag Name="Tame" Level="100"/>
+		<Tag Name="TameLing" Level="1"/>
+		<Tag Name="Item_EarthEssence_1" Level="1"/>
+	</Tags>
+	<MaxHitPoints>500</MaxHitPoints>
+	<Rate>10</Rate>
+	<Beauty>15</Beauty>
+	<ElementKind>Tu</ElementKind>
+	<Item Lable="Drug">
+		<Prices>
+			<TalkType>1</TalkType>
+			<BaseCount>1</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="30000" FriendPoint="1"/>
+				<SalePrice Value="500" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="30000" />
+				<SalePrice Value="500" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="30000" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<FabaoSuffix>Liquid, Water, Fog, Smoke, Mist</FabaoSuffix>
+		<PhysicalLables>
+			<li>GreatThing_Ling</li>
+			<li>Liquid</li>
+		</PhysicalLables>
+		<BeMade>
+				<WorkToMake>3</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		<Elixir>
+			<RecoveryLable>
+				<li>None</li>
+				<li>OldScar</li>
+				<li>Jin</li>
+				<li>Mu</li>
+				<li>Shui</li>
+				<li>Huo</li>
+				<li>Tu</li>
+				<li>Ling</li>
+			</RecoveryLable>
+			<RecoveryValue>10000</RecoveryValue>
+			<RecoveryDuration>0.05</RecoveryDuration>
+			<Modifier>Modifier_Item_TerrafluxVitalCream</Modifier>
+			<Fesistance>0</Fesistance>
+		</Elixir>
+	</Item>
+	<Ling>
+		<AddionLing>0</AddionLing>
+		<AddionRadius>1</AddionRadius>
+		<AddionFailing>0.9</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0.1</Attenuation>
+		<Absorption>0.8</Absorption>
+		<Accommodate>45</Accommodate>
+	</Ling>
+	<Element>
+		<Kind>Tu</Kind>
+		<Value>15</Value>         
+		<Radius>3</Radius>
+		<Failing>0.9</Failing>
+		<FailRadius>1</FailRadius>
+	</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_SereneSpiritLeaf" Parent="DrugBase">
+	<Tags>		
+		<Tag Name="Item_Mint" Level="1"/>
+	</Tags>	
+
+	<ThingName>Serene Spirit Leaf</ThingName>
+	<TexPath>res/Sprs/object/object_qingxincao01</TexPath>	
+	<Desc>Ramuan herbal ringan dengan sifat menenangkan, dapat dikonsumsi langsung untuk meredakan jiwa dan menstabilkan aliran Qi. Jika dikonsumsi oleh murid batin/dalam, ramuan ini juga meningkatkan Kondisi Mental.</Desc>
+	<MaxHitPoints>500</MaxHitPoints>
+	<MaxRandomInFightMap>200</MaxRandomInFightMap>
+	<Rate>5</Rate>
+	<Beauty>10</Beauty>
+	<ElementKind>Mu</ElementKind>
+	<Flammability>
+		<Flammability>0.4</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+	</Flammability>
+	
+	<IllustratedHandLabel>DOther</IllustratedHandLabel>
+	<Item Lable="Drug">
+		<FabaoSuffix>Flower, Pistil</FabaoSuffix>
+		<PhysicalLables>
+			<li>Soft1</li>
+			<li>Light1</li>
+		</PhysicalLables>
+		<BeMade>
+				<WorkToMake>3</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Poisonousness>0</Poisonousness>
+			<FunAddion>0</FunAddion>
+		</Food>	
+		<Elixir>
+			<Modifier>Modifier_Item_SereneSpiritLeaf</Modifier>
+			<Fesistance>1</Fesistance>
+		</Elixir>
+		<BeMaterial>
+			<FlammabilityWhenBeMain>0.4</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>10</BeautyWhenBeMain>
+			<ElementPowerWhenBeMain>3</ElementPowerWhenBeMain>
+		</BeMaterial>
+		<Rot>
+			<RotSpeed>0.003</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	<From>Herb Field or Adventure</From>
+	</ThingDef>
+</List></ThingDefs>

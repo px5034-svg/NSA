@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_fe19590ada894374" Parent="ClothesBase">
+      <ThingName>Nusa Heavenly Coat</ThingName>
+      <Rate>1</Rate>
+      <Desc>Desc.</Desc>
+      <TexPath>res/Sprs/object/object_huafushangyi01</TexPath>
+      <Color>FFFFFFFF</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Clothes" Kind="Equipment">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <StuffCategories>
+            <Stuff name="Leather" />
+          </StuffCategories>
+        </BeMade>
+        <Equip>
+          <ModelID>8</ModelID>
+          <TemperatureMaxAdd>999</TemperatureMaxAdd>
+          <TemperatureMinAdd>-999</TemperatureMinAdd>
+          <NeedSex>None</NeedSex>
+          <Modifier>NusaCtr_4975c282b3434642</Modifier>
+        </Equip>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>TailorTable</Building>
+            <Count>100</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

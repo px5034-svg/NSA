@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_5ecc5404423142ce" Parent="DrugBase">
+      <ThingName>Pill of Earth</ThingName>
+      <Rate>2</Rate>
+      <TexPath>res/Sprs/object/object_jidan01</TexPath>
+      <Color>cc3333</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Other" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="NusaCtr_3449306887a343af" count="10" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_4dd5469197224a15</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <Light>
+        <Color>cc3333</Color>
+      </Light>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MedicineTable</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

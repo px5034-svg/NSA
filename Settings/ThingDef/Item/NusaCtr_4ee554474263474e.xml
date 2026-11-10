@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_4ee554474263474e" Parent="DanBase">
+      <ElementKind>Huo</ElementKind>
+      <Element>
+        <Kind>Huo</Kind>
+      </Element>
+      <ThingName>Nusa Dragon Elixir</ThingName>
+      <Rate>12</Rate>
+      <Desc>The Azure Dragon God's gift to Luo Zheng effects of the hong meng tian gang provides an indestructible body that rivals the stars. can only be taken once</Desc>
+      <TexPath>res/Sprs/object/object_longhunzhenlingdan01</TexPath>
+      <Color>cc3300</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_BossLong_Meat" count="1" />
+            <Item name="Item_BossLong_Lin" count="1" />
+            <Item name="Item_SoulPearl" count="10" />
+            <Item name="Item_MonsterBlood" count="10" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>10</BaseCount>
+          <Fixed>1</Fixed>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="15000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>100</Nutrition>
+          <Water>100</Water>
+          <PracticeNutrition>1000</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>25000</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>100000</Ling>
+          <Modifier>NusaCtr_10a9809d43404177</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>cc3300</Color>
+      </Light>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <WorldDrop>1</WorldDrop>
+        <Businessman>1</Businessman>
+        <DropRate>0.05</DropRate>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>56d456bf-ef77-42bb-81ab-3a6865c252c1</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_4ee554474263474e</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

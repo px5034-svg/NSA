@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_3b55db368cc24317" Parent="DrugBase">
+      <ThingName>Stamina </ThingName>
+      <Rate>5</Rate>
+      <Desc>Desc.</Desc>
+      <TexPath>res/Sprs/object/object_DAdanyao03</TexPath>
+      <Color>FFFFFFFF</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Drug" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Ginkgo" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>9999</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>WoodShed</Building>
+            <Count>999</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

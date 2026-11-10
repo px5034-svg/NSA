@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_15ecfda56fd94565" Parent="DanBase">
+      <ThingName>Ashes of a King</ThingName>
+      <Rate>12</Rate>
+      <Desc>Said to be the ashes of a long dead king from ancient times. It appears that his spirit still remains in these ashes if you can subdue it you would gain massive benifits.</Desc>
+      <TexPath>res/Sprs/object/object_guanyinsoil</TexPath>
+      <Color>ffff00</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>0</CostStuffCount>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <Fixed>1</Fixed>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="500000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>1000000</Ling>
+          <Modifier>NusaCtr_81f9d928928d4d98</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>ffff00</Color>
+      </Light>
+      <ProduceMode>
+        <Businessman>1</Businessman>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

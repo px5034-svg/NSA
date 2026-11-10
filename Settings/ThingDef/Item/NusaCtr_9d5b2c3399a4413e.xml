@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_9d5b2c3399a4413e" Parent="DanBase">
+      <ThingName>Broken Spirit</ThingName>
+      <Rate>12</Rate>
+      <Desc>A spirit created from the combination of all 5 elements. it has gone mad and will harm any who consume it, but if you can tame it you will gain a new artifact slot.</Desc>
+      <TexPath>res/Sprs/object/object_benyuanwu01</TexPath>
+      <Color>000066</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_BenYuan_None" count="1" />
+            <Item name="Item_BenYuan_Jin" count="1" />
+            <Item name="Item_BenYuan_Mu" count="1" />
+            <Item name="Item_BenYuan_Shui" count="1" />
+            <Item name="Item_BenYuan_Huo" count="1" />
+            <Item name="Item_BenYuan_Tu" count="1" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <li />
+            <BuyPrice Value="1000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="1500" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="500" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>200000</Ling>
+          <Modifier>NusaCtr_dab15b505a10478b</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>000066</Color>
+      </Light>
+      <ProduceMode>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>9cd2edf8-b2b1-4164-a8bf-6f0be9a620be</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_9d5b2c3399a4413e</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

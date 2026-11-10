@@ -1,0 +1,28 @@
+﻿<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_TrimerousEssence" Parent="DanBase">
+      <ThingName>Trimerous Essence +</ThingName>
+      <Desc>+1150 Max Qi (AddV)</Desc>
+      <ElementKind>Mu</ElementKind>
+      <Rate>12</Rate>
+      <TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Dan_SanHuaHuangJing" count="2" />
+            <Item name="Item_SoulCrystalYou" count="3" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>NusaCtr_TrimerousEssence</Modifier>
+        </Elixir>
+      </Item>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <DanFormula>NusaCtr_TrimerousEssence</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

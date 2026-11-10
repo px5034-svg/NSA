@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_1e456086cac944d9" Parent="DanBase">
+      <ThingName>Lucky Day</ThingName>
+      <Rate>5</Rate>
+      <Desc>Refined luck</Desc>
+      <TexPath>res/Sprs/object/object_XIAOdanyao03</TexPath>
+      <Color>FFFFFFFF</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Yao_RabbitLuck" count="3" />
+            <Item name="Item_Dan_SwordBall" count="1" />
+            <Item name="Item_BossFeng_HuoYu" count="1" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <li />
+            <BuyPrice Value="1000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="1500" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="500" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_ec0319559f0a4740</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>62F8FFFF</Color>
+      </Light>
+      <ProduceMode>
+        <WorldDrop>1</WorldDrop>
+        <DropRate>0.05</DropRate>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>f67975f4-4f2a-4138-a82e-c9e4491ea972</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_1e456086cac944d9</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

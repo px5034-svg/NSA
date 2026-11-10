@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_8dfb6633c9f74374" Parent="DanBase">
+      <ElementKind>Shui</ElementKind>
+      <Element>
+        <Kind>Shui</Kind>
+      </Element>
+      <ThingName>Moon Pill</ThingName>
+      <Rate>5</Rate>
+      <Desc>After many weak cultivators had tried to take a sun pill and died from the resulting Qi overflow a sect leader decided to make a weaker pill for them. </Desc>
+      <TexPath>res/Sprs/object/object_DAdanyao06</TexPath>
+      <Color>66ffff</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_EarthEssence" count="3" />
+            <Item name="Item_EarthEssence1" count="3" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <li />
+            <BuyPrice Value="1000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="2000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="500" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0.8</Fesistance>
+          <Ling>65000</Ling>
+          <Modifier>NusaCtr_79eb46c80ac245df</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>66ffff</Color>
+      </Light>
+      <ProduceMode>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>eec9e96d-45fe-4a72-a46c-a0d4b9a68a54</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_8dfb6633c9f74374</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

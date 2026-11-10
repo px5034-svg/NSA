@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_fb57c8d6d2cf4a28" Parent="DrugBase">
+      <ThingName>Disciple Pill</ThingName>
+      <Rate>1</Rate>
+      <Desc>Desc.</Desc>
+      <TexPath>res/Sprs/object/object_DAdanyao05</TexPath>
+      <Color>FFFFFFFF</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Drug" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Healroot" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_36d8c5888ae54f0f</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MedicineTable</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

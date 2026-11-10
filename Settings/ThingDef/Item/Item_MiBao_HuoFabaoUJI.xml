@@ -1,0 +1,37 @@
+<ThingDefs><List>
+<ThingDef Type="Item" Name="Item_MiBao_HuoFabaoUJI" Parent="MiBaoBase">
+	<ThingName>Soul Flag</ThingName>
+	<TexPath>res/Sprs/object/object_MBqi01</TexPath>	
+	<FabaoTexPath>res\Sprs\object\object_MBqi01</FabaoTexPath>
+	<Desc>DTE +100%</Desc>
+	<ElementKind>None</ElementKind>
+	<Item Kind="Equipment">
+		<PhysicalLables>
+			<li>GreatThing_Attack</li>
+			<li>Rough1</li>
+			<li>Soft1</li>
+		</PhysicalLables>
+		<BeMade>
+			<CostItems>
+				<Item name = "Item_LingStone" count = "1"/>
+			</CostItems>
+		</BeMade> 
+		<Fabao>
+		    <ActiveCondition>
+			    <Condition eventid = "UseNpcLing" des = "Gunakan 10Qi" needcount = "10" />
+			</ActiveCondition>
+			<SpecialAbility>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="0" sParam1="Jin" Desc="Kerusakan pada target logam meningkat sebesar 100%."/>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="0" sParam1="Mu" Desc="Meningkatkan kerusakan yang ditimbulkan pada target tipe kayu sebesar 100%."/>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="0" sParam1="Tu" Desc="Meningkatkan kerusakan yang ditimbulkan pada target tipe Bumi sebesar 100%."/>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="0" sParam1="Jin" Desc="Kerusakan pada target logam meningkat sebesar 100%."/>
+			     <Ability Kind="AtkRateDamageAddp" fParam1="1" fParam2="1" nParam1="0" sParam1="Shui" Desc="Meningkatkan kerusakan yang ditimbulkan pada target tipe air sebesar 100%."/>
+			</SpecialAbility>
+		</Fabao>
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	</ThingDef>
+	
+</List></ThingDefs>

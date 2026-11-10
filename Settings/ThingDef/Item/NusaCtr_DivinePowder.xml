@@ -1,0 +1,37 @@
+﻿<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_DivinePowder" Parent="DanBase">
+      <ThingName>Divine Powder +</ThingName>
+      <Desc>Restores 1 000 000 Qi.
++200 000 Max Qi (AddV)
++2000% Qi Absorption (AddP)
+
+Requires 385 000 Max Qi to survive. Lasts for a month.</Desc>
+      <ElementKind>Tu</ElementKind>
+      <Rate>12</Rate>
+      <TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Dan_Ling3" count="5" />
+            <Item name="Item_SoulCrystalYou" count="4" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <Nutrition>100</Nutrition>
+          <Water>100</Water>
+          <PracticeNutrition>9999</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <Ling>1000000</Ling>
+          <Modifier>NusaCtr_DivinePowder</Modifier>
+        </Elixir>
+      </Item>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <DanFormula>NusaCtr_DivinePowder</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_74a7427598b242bd" Parent="WeaponBase">
+      <ThingName>Nusa Heavenly Smasher</ThingName>
+      <Rate>1</Rate>
+      <Desc>A long spear that can effectively inflict piercing damage to one's inner organs.</Desc>
+      <TexPath>res/Sprs/object/object_weaponqiang01</TexPath>
+      <Color>000000</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Weapon" Kind="Equipment">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_IronBlock" count="2" />
+            <Item name="Item_RoughWoodBlock" count="3" />
+            <Item name="Item_Water" count="100" />
+          </CostItems>
+          <StuffCategories>
+            <Stuff name="MetalBlock" />
+          </StuffCategories>
+        </BeMade>
+        <Equip>
+          <Damage>999</Damage>
+          <AttackSpeed>3</AttackSpeed>
+          <AttackRange>20</AttackRange>
+          <ModPath>Mod/Prop/Weapon/weapon_chang8</ModPath>
+          <WeaponKind>Spear</WeaponKind>
+          <Modifier>NusaCtr_4975c282b3434642</Modifier>
+        </Equip>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <Light>
+        <Color>000000</Color>
+      </Light>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>WeaponMaker</Building>
+            <Count>50</Count>
+          </li>
+          <li>
+            <Building>WoodShed</Building>
+            <Count>50</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+	<ThingDef Type="Item" Name="Item_Dan_HeavenflowElixir" Parent="DanBase">
+		<ThingName>Heavenflow Elixir</ThingName>
+		<TexPath>res/Sprs/object/object_PINGdanyao02</TexPath>
+		<Desc>Obat mujarab yang dimurnikan dari buah vermilion dapat meningkatkan kecepatan budidaya sebesar 50% dan bertahan selama dua belas jam.</Desc>	
+		<Rate>7</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="0" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Elixir>
+				<Modifier>Dan_HeavenflowElixir</Modifier>
+			</Elixir>
+			
+			<BeMade>
+				<WorkToMake>3</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>0</Value>   
+		</Element>
+	</ThingDef>
+	
+		<ThingDef Type="Item" Name="Item_Dan_HeavenboundRevivalPill" Parent="DanLightBase">
+		<ThingName>Heavenbound Revival Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao04</TexPath>
+		<Desc>Pill langka yang selaras dengan Dao Surgawi, mampu memaksa kehidupan kembali pada saat berada di ambang kematian. Dapat menarik seseorang kembali ketika hanya tersisa satu nafas terakhir. (Tidak dapat digunakan saat dalam kondisi sekarat).</Desc>		
+		<Rate>10</Rate>
+		<MaxRandomInFightMap>1</MaxRandomInFightMap>
+		<Beauty>10</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000" FriendPoint="2"/>
+					<SalePrice Value="600" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="600" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>10000</Ling>
+				<Modifier>Dan_HeavenboundRevivalPill</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>1000</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Ling>
+			<AddionLing>90</AddionLing>
+		</Ling>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>8</Value> 
+		</Element>
+		<Light>
+			<Value>10</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>2</Radius>
+			<Color>F1FF00FF</Color>
+		</Light>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_SoulforgeReconstitutionPill" Parent="DanLightBase">
+		<ThingName>Soulforge Reconstitution Pill</ThingName>
+		<MaxRandomInFightMap>1</MaxRandomInFightMap>
+		<TexPath>res/Sprs/object/object_DAdanyao05</TexPath>
+		<Desc>Pil langka dari Master GrandHeavens Mengonsumsinya memungkinkan jiwa untuk membentuk kembali tubuh manusia yang baru sepenuhnya. Pil ini juga mampu menyelamatkan nyawa seseorang meskipun berada di ambang kematian.</Desc>	
+		<Rate>9</Rate>	
+		<Beauty>15</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Lingering>1</Lingering>
+				<Reborn>1</Reborn>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<DevourDatas>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="3" Rate="0.5"/>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="5" Rate="0.25"/>
+			</DevourDatas> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>9</Value> 
+		</Element>
+	</ThingDef>
+	
+		<ThingDef Type="Item" Name="Item_Dan_CelestialQiSurgePowder" Parent="DanBase">
+		<ThingName>Celestial Qi Surge Powder</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>Dikonsumsi untuk memulihkan 100.000 Qi. Namun, bagi kultivator dengan tingkat budidaya yang tidak memadai, lonjakan Qi yang terlalu besar dapat menyebabkan kehancuran meridian dan kematian seketika.</Desc>	
+		<Rate>8</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>100000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>600</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+			<ThingDef Type="Item" Name="Item_Dan_CelestialQiSurgePowderV2" Parent="DanBase">
+		<ThingName>Celestial Qi Overflow Powder</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>Dikonsumsi untuk memulihkan 250.000 Qi. Namun, bagi kultivator dengan tingkat budidaya yang tidak memadai, lonjakan Qi yang terlalu besar dapat menyebabkan kehancuran meridian dan kematian seketika.</Desc>	
+		<Rate>8</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>250000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>600</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+				<ThingDef Type="Item" Name="Item_Dan_CelestialQiSurgePowderV3" Parent="DanBase">
+		<ThingName>Heavenly Qi Ascension Powder</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>Dikonsumsi untuk memulihkan 500.000 Qi. Namun, bagi kultivator dengan tingkat budidaya yang tidak memadai, lonjakan Qi yang terlalu besar dapat menyebabkan kehancuran meridian dan kematian seketika.</Desc>	
+		<Rate>8</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>500000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>600</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+				<ThingDef Type="Item" Name="Item_Dan_CelestialQiSurgePowderV4" Parent="DanBase">
+		<ThingName>Supreme Qi Surge Powder</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>Dikonsumsi untuk memulihkan 1000.000 Qi. Namun, bagi kultivator dengan tingkat budidaya yang tidak memadai, lonjakan Qi yang terlalu besar dapat menyebabkan kehancuran meridian dan kematian seketika.</Desc>	
+		<Rate>8</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>1000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>600</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_CelestialQiSurgePowderV5" Parent="DanBase">
+		<ThingName>Primordial Qi Infusion Powder</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>Dikonsumsi untuk memulihkan 5000.000 Qi. Namun, bagi kultivator dengan tingkat budidaya yang tidak memadai, lonjakan Qi yang terlalu besar dapat menyebabkan kehancuran meridian dan kematian seketika.</Desc>	
+		<Rate>8</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>5000000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>600</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_CelestialQiSurgePowderV6" Parent="DanBase">
+		<ThingName>Spirit Celestial Qi Surge Powder</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>Dikonsumsi untuk memulihkan 50.000 Qi. Namun, bagi kultivator dengan tingkat budidaya yang tidak memadai, lonjakan Qi yang terlalu besar dapat menyebabkan kehancuran meridian dan kematian seketika.</Desc>	
+		<Rate>8</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<DiscipleOnly>1</DiscipleOnly>
+				<Ling>50000</Ling>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>600</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_QiCirculationPill" Parent="DanBase">
+		<ThingName>Qi Circulation Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>Meningkatkan laju pemulihan Qi selama 1 hari.</Desc>	
+		<Rate>6</Rate>
+		<Beauty>15</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>25</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="1" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="2" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_QiCirculationPill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+		<ThingDef Type="Item" Name="Item_Dan_VitalResinEssencePowder" Parent="DanBase">
+		<ThingName>Vital Resin Essence Powder</ThingName>
+		<TexPath>res/Sprs/object/object_HemostaticDrug04</TexPath>
+		<Desc>Dalam waktu 28 hari, produk ini meningkatkan kemampuan tubuh untuk memproduksi esensi, meningkatkan laju konsumsi rasa kenyang, dan memperbaiki tingkat konversi esensi.</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="4"/>
+		</Tags>
+		<Rate>7</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="40" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="60" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Elixir>
+				<Modifier>Modifier_Dan_VitalResinEssencePowder</Modifier>
+			</Elixir>
+			
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+		<ThingDef Type="Item" Name="Item_Dan_Mind-CleansingPurityPill" Parent="DanBase">
+		<ThingName>Mind-Cleansing Purity Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao07</TexPath>
+		<Desc>Pil yang diracik dari Daun Kemurnian dan Bubuk Kristal Es, berfungsi menenangkan pikiran serta menstabilkan kondisi mental penggunanya, membantu meredam gangguan batin dan fluktuasi emosi.</Desc>	
+		<Rate>7</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>25</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="1" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="2" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_Mind-CleansingPurityPill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+			<ThingDef Type="Item" Name="Item_Dan_DilutedMindResinPowder" Parent="DanBase">
+		<ThingName>Diluted Mind Resin Powder</ThingName>
+		<TexPath>res/Sprs/object/object_PINGdanyao04</TexPath>
+		<Desc>Serbuk resin yang telah diencerkan, memberikan efek peningkatan Kondisi Mental yang stabil selama 28 hari.</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="4"/>
+		</Tags>
+		<Rate>7</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="0" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Elixir>
+				<Modifier>Modifier_Dan_DilutedMindResinPowder</Modifier>
+			</Elixir>
+			
+			<BeMade>
+				<WorkToMake>3</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>0</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_EurekaInsightPill" Parent="DanLightBase">
+		<ThingName>Eureka Insight Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+		<Desc>Memberikan tambahan sebesar 250.000 poin Inspirasi secara instan,dalam beberapa kasus bisa mendapatkan point lebih tergantung dari kondisi murid.</Desc>	
+		<Rate>9</Rate>
+		<Beauty>10</Beauty>
+		<NoElementKind>1</NoElementKind>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000" FriendPoint="2"/>
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="1500" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>LowDensity1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<TreeExp>250000</TreeExp>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>3</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>0</Value>   
+		</Element>
+	</ThingDef>
+	
+	    <ThingDef Type="Item" Name="Item_Dan_CondensedNutrientPill" Parent="DanBase">
+		<ThingName>Condensed Nutrient Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>Pil makanan padat dengan nilai nutrisi setara Food Level 6.</Desc>	
+		<Tags>
+			<Tag Name="Food" Level="6"/>
+			<Tag Name="DiscipleFood" Level="20"/>
+		</Tags>	
+		<Rate>6</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="1" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="2" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>50</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<Modifier>Dan_CondensedNutrientPill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>0</Value>   
+		</Element>
+	</ThingDef>
+	
+		<ThingDef Type="Item" Name="Item_Dan_Soul-AnchorAscensionPill" Parent="DanBase">
+      <MaxStack>1</MaxStack>
+      <ThingName>Soul-Anchor Ascension Pill</ThingName>
+      <TexPath>res/Sprs/object/object_fenghunzhenlingdan01</TexPath>
+      <Desc>Secara permanen menambahkan 1 Slot Artefak. Efek ini hanya dapat diperoleh satu kali. Mengonsumsi pil ini untuk kedua kalinya memiliki risiko kematian yang sangat tinggi.</Desc>
+      <Rate>12</Rate>
+      <Beauty>25</Beauty>
+      <ElementKind>None</ElementKind>
+      <Item Lable="Dan">
+        <Prices>
+          <TalkType>1</TalkType>
+          <BaseCount>0</BaseCount>
+          <li PriceTag="School">
+            <BuyPrice Value="70000" FriendPoint="5"/>
+            <SalePrice Value="0"/>
+          </li>
+          <li PriceTag="Trade">
+            <BuyPrice Value="30000"/>
+            <SalePrice Value="0"/>
+          </li>
+          <li PriceTag="Auction">
+            <BuyPrice Value="30000"/>
+            <SalePrice Value="0"/>
+          </li>
+        </Prices>
+        <NotFengshuiItem>0</NotFengshuiItem>
+        <PhysicalLables>
+          <li>Smooth1</li>
+          <li>Hard1</li>
+          <li>Light1</li>
+        </PhysicalLables>
+        <Elixir>
+          <GodSoulCount>1</GodSoulCount>
+          <Modifier>Modifier_Dan_Soul-AnchorAscensionPill</Modifier>
+          <Fesistance>0</Fesistance>
+        </Elixir>
+        <BeMade>
+          <WorkToMake>4</WorkToMake>
+          <CostItems>
+            <Item name="Item_LingStone" count="1"/>
+          </CostItems>
+        </BeMade>
+      </Item>
+      <Element>
+        <Kind>None</Kind>
+        <Value>1</Value>
+      </Element>
+      <Ling>
+        <AddionLing>180</AddionLing>
+        <AddionRadius>5</AddionRadius>
+        <AddionFailing>0.8</AddionFailing>
+        <AddionFailRadius>2</AddionFailRadius>
+        <Attenuation>0</Attenuation>
+        <Absorption>0</Absorption>
+        <Accommodate>0</Accommodate>
+      </Ling>
+    </ThingDef>
+    
+    <ThingDef Type="Item" Name="Item_Dan_SpiritCoreExpansionPill" Parent="DrugBase">
+		<ThingName>Spirit Core Expansion Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao05</TexPath>
+		<Desc>Energi spiritual/Qi maksimum ditingkatkan sebesar 100.000 poin secara permanen.</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_SpiritCoreExpansionPill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+            <Item name="Item_LingStone" count="1"/>
+          </CostItems>
+			</BeMade>
+		</Item>
+	</ThingDef>
+    
+		<ThingDef Type="Item" Name="Item_Dan_RealmInsightInnerPill" Parent="DrugBase">
+		<ThingName>Realm Insight Inner Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao05</TexPath>
+		<Desc>Energi spiritual/Qi maksimum ditingkatkan sebesar 200.000 poin secara permanen.</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_RealmInsightInnerPill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+            <Item name="Item_LingStone" count="1"/>
+          </CostItems>
+			</BeMade>
+		</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_BlissfogTranquilityPill" Parent="DanBase">
+		<ThingName>Blissfog Tranquility Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao06</TexPath>
+		<Desc>Pil yang menimbulkan perasaan bahagia dan ringan selama 2 hari. Dan, kondisi euforia yang berkepanjangan ini menaikan efisiensi dalam melakukan segala aktivitas hingga 50%.</Desc>	
+		<Rate>6</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="1" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="2" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<Modifier>Dan_BlissfogTranquilityPill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+            <Item name="Item_LingStone" count="1"/>
+          </CostItems>
+			</BeMade>
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+		<Tags>
+			<Tag Name="Dan_Happiness" Level="1"/>
+		</Tags>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_InsightCatalystPill" Parent="DanBase">
+		<ThingName>Insight Catalyst Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao04</TexPath>
+		<Desc>Pil yang diracik dari Buah Sage dan Daun Kemurnian, mampu mempercepat proses berpikir serta menggandakan peluang mencapai Terobosan selama 3 hari. Namun, konsumsi berlebihan akan menyebabkan penurunan efektivitas secara signifikan.</Desc>	
+		<Rate>7</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="40" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="60" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_InsightCatalystPill</Modifier>
+				<Fesistance>2</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>400</WorkToMake>
+				<CostItems>
+            <Item name="Item_LingStone" count="1"/>
+          </CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>5</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FivefoldMeridianRemedyPill" Parent="DanBase">
+		<ThingName>Fivefold Meridian Remedy Pill</ThingName>
+		<TexPath>res/Sprs/object/object_PINGdanyao03</TexPath>
+		<Desc>Pil penyembuh yang dirancang untuk memulihkan Cedera Batin beratribut “Logam”, “Kayu”, “Air”, “Api”, dan “Bumi”. Bekerja dengan kecepatan relatif tinggi dalam menstabilkan dan memperbaiki meridian yang rusak.</Desc>		
+		<Rate>6</Rate>
+		<Beauty>15</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="40" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="60" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<RecoveryLable>
+					<li>Jin</li>
+					<li>Mu</li>
+					<li>Shui</li>
+					<li>Huo</li>
+					<li>Tu</li>
+				</RecoveryLable>
+				<RecoveryValue>3</RecoveryValue>
+				<RecoveryDuration>1</RecoveryDuration>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+            <Item name="Item_LingStone" count="1"/>
+          </CostItems>
+			</BeMade> 
+			<DevourDatas>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="1" Rate="0.5"/>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="1" Rate="0.25"/>
+				<li Name="Item_BodyPractice_ShengMingLv1" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_ShengMingLv1" Count="1" Rate="0.5"/>
+				<li Name="Item_BodyPractice_ShengMingLv1" Count="1" Rate="0.25"/>
+				<li Name="Item_BodyPractice_ShengMingLv2" Count="1" Rate="0.5"/>
+				<li Name="Item_BodyPractice_ShengMingLv2" Count="1" Rate="0.25"/>
+			</DevourDatas> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>0</Value>         
+			<Radius>1</Radius>
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_QiSustenancePill" Parent="DanBase">
+		<ThingName>Qi Sustenance Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>Mengonsumsi pil ini memberikan kemampuan menyerap Qi dari lingkungan selama 3 hari, secara otomatis memulihkan rasa lapar tanpa perlu asupan makanan.</Desc>	
+		<Tags>
+			<Tag Name="Food" Level="3"/>
+			<Tag Name="DiscipleFood" Level="20"/>
+		</Tags>	
+		<Rate>6</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>10</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000"/>
+					<SalePrice Value="1" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="2" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>50</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<Modifier>Dan_QiSustenancePill</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_FivefoldAscensionPill" Parent="DanLightBase">
+		<ThingName>Fivefold Ascension Pill</ThingName>
+		<MaxRandomInFightMap>1</MaxRandomInFightMap>
+		<TexPath>res/Sprs/object/object_HULUdanyao04</TexPath>
+		<Desc>Meningkatkan kelima atribut utama masing-masing sebesar 10% dan menaikan semua skill ke level maksimal. Efek penuh hanya berlaku pada konsumsi pertama, sementara konsumsi berikutnya akan mengalami penurunan potensi secara drastis.</Desc>	
+		<Rate>9</Rate>	
+		<Beauty>15</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="30000" FriendPoint="1"/>
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="30000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth2</li>
+				<li>Hard1</li>
+				<li>GreatThing_Ling</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_FivefoldAscensionPill</Modifier>
+				<Fesistance>0.2</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade> 
+			<DevourDatas>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="1" Rate="0.5"/>
+				<li Name="Item_BodyPractice_XianDaoJingHua" Count="1" Rate="0.25"/>
+				<li Name="Item_BodyPractice_ShengMingLv1" Count="1" Rate="1"/>
+				<li Name="Item_BodyPractice_ShengMingLv1" Count="1" Rate="0.5"/>
+				<li Name="Item_BodyPractice_ShengMingLv1" Count="2" Rate="0.25"/>
+				<li Name="Item_BodyPractice_ShengMingLv1" Count="3" Rate="0.1"/>
+			</DevourDatas> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>0</Value> 
+		</Element>
+		<Light>
+			<Value>30</Value>
+			<Failing>0.8</Failing>
+			<FailRadius>1</FailRadius>
+			<Radius>3</Radius>
+			<Color>FFFFFFFF</Color>
+		</Light>
+	</ThingDef>
+</List></ThingDefs>

@@ -1,0 +1,29 @@
+﻿<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_JunkPill" Parent="DanBase">
+      <ThingName>Junk Pill +</ThingName>
+      <Desc>+17.5% Base Max Qi (BAddP)
+
+No Adverse Effect.</Desc>
+      <Rate>12</Rate>
+      <TexPath>res/Sprs/object/object_plaster03</TexPath>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Dan_Fail4" count="1" />
+            <Item name="Item_SoulCrystalYou" count="3" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>NusaCtr_JunkPill</Modifier>
+        </Elixir>
+      </Item>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <DanFormula>NusaCtr_JunkPill</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

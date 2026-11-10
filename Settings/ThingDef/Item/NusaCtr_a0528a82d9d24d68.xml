@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_a0528a82d9d24d68" Parent="DanBase">
+      <ElementKind>Huo</ElementKind>
+      <Element>
+        <Kind>Huo</Kind>
+      </Element>
+      <ThingName>Spirit Meat</ThingName>
+      <Rate>1</Rate>
+      <Desc>A hunk of meat with qi pills added to beast blood.</Desc>
+      <TexPath>res/Sprs/object/object_food003</TexPath>
+      <Color>ffccff</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_MonsterBlood" count="5" />
+            <Item name="Item_Jerky" count="5" />
+            <Item name="Item_Dan_Ling" count="3" />
+            <Item name="Item_MagicHerb" count="50" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <li />
+            <BuyPrice Value="1000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="1500" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="500" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>100</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>100</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0.99</Fesistance>
+          <Ling>10000</Ling>
+          <Modifier>NusaCtr_eaf93cdbc0e54981</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>ffccff</Color>
+      </Light>
+      <ProduceMode>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>3f718257-eda5-4da5-8642-885f40a05a55</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_a0528a82d9d24d68</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_18dd5beef8bf45ad" Parent="DrugBase">
+      <ThingName>Permanent Master Craft Pill</ThingName>
+      <Rate>12</Rate>
+      <Desc>Master Craft Pill guaranteed that you get the highest possible craft quality!
+Duration: PERMANENT
+ Sewing+Handicraft+ArtifactCraft+Alchemy+Product+Crafting and Building!
+Sweet Dreams..</Desc>
+      <TexPath>res/Sprs/object/object_fenghuangdan01</TexPath>
+      <Color>000000</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Drug" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>0</CostStuffCount>
+        </BeMade>
+        <Food>
+          <Nutrition>100</Nutrition>
+          <Water>100</Water>
+          <PracticeNutrition>9999</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_7587a1caa2d24d67</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>0</CostStuffCount>
+      <Light>
+        <Color>000000</Color>
+      </Light>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+          <li>
+            <Building>Kitchen</Building>
+            <Count>1</Count>
+          </li>
+          <li>
+            <Building>MedicineTable</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

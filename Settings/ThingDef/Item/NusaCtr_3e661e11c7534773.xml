@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_3e661e11c7534773" Parent="DanBase">
+      <ElementKind>Shui</ElementKind>
+      <Element>
+        <Kind>Shui</Kind>
+      </Element>
+      <ThingName>Super Dragon Qi Pill</ThingName>
+      <Rate>12</Rate>
+      <Desc>This is for heavy Qi Heroes that need more instant Qi recovery. Set at 5million Qi instant recovery.  </Desc>
+      <TexPath>res/Sprs/object/object_jiaolongdan01</TexPath>
+      <Color>000066</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Dan_CureTuDamage" count="1" />
+            <Item name="Item_LingCrystal" count="10" />
+            <Item name="Item_SoulPearl" count="10" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>999</BaseCount>
+          <Fixed>1</Fixed>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="2000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>5000000</Ling>
+          <Modifier>NusaCtr_e5f9fc46863b41dc</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>000066</Color>
+      </Light>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <WorldDrop>1</WorldDrop>
+        <Businessman>1</Businessman>
+        <DropRate>0.05</DropRate>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>56d456bf-ef77-42bb-81ab-3a6865c252c1</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_3e661e11c7534773</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

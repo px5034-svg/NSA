@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_92f0129685ee4ea2" Parent="DrugBase">
+      <ThingName>Workers</ThingName>
+      <Rate>5</Rate>
+      <Desc>Desc.</Desc>
+      <TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+      <Color>FFFFFFFF</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Drug" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Ginkgo" count="1" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_5f7da3ff08ee4be3</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Kitchen</Building>
+            <Count>100</Count>
+          </li>
+          <li>
+            <Building>WoodShed</Building>
+            <Count>100</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

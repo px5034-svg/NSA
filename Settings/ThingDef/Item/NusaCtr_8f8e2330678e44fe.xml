@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_8f8e2330678e44fe" Parent="DrugBase">
+      <ThingName>Scorched Pill</ThingName>
+      <Rate>1</Rate>
+      <Desc>Increase your Highest Temperature Tolerance by 50.</Desc>
+      <TexPath>res/Sprs/object/object_DAdanyao05</TexPath>
+      <Color>cc6633</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Drug" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Healroot" count="10" />
+          </CostItems>
+        </BeMade>
+        <Food>
+          <Nutrition>10</Nutrition>
+          <Water>10</Water>
+          <PracticeNutrition>10</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_0c211fe2bf894676</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <Light>
+        <Color>cc6633</Color>
+      </Light>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>Bonfire</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

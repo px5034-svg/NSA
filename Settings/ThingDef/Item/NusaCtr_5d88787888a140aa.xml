@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_5d88787888a140aa" Parent="TrousersBase">
+      <ThingName>Nusa Pants of Existence</ThingName>
+      <Rate>1</Rate>
+      <Desc>The Godly Pants of Existence.. 
+Endgame Item.</Desc>
+      <TexPath>res/Sprs/object/object_huafukuzi01</TexPath>
+      <Color>9900cc</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Trousers" Kind="Equipment">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_StarEssenceBlock" count="100" />
+            <Item name="Item_DarksteelBlock" count="50" />
+            <Item name="Item_SilverBlock1" count="50" />
+            <Item name="Item_CopperBlock1" count="50" />
+            <Item name="Item_SilverBlock" count="50" />
+            <Item name="Item_PracticeTrousers" count="1" />
+          </CostItems>
+          <StuffCategories>
+            <Stuff name="MetalBlock" />
+            <Stuff name="Cloth" />
+            <Stuff name="Leather" />
+          </StuffCategories>
+        </BeMade>
+        <Equip>
+          <ModelID>7</ModelID>
+          <TemperatureMaxAdd>999</TemperatureMaxAdd>
+          <TemperatureMinAdd>-999</TemperatureMinAdd>
+          <NeedSex>None</NeedSex>
+          <Modifier>NusaCtr_85438b6af4b14f93</Modifier>
+        </Equip>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <Light>
+        <Color>9900cc</Color>
+      </Light>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>TailorTable</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

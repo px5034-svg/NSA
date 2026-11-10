@@ -1,0 +1,324 @@
+﻿<ThingDefs><List>
+	
+
+	<ThingDef Type="Item" Name="Item_Dan_JingYuan4" Parent="DanBase">
+		<ThingName>Ancient Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>Essence Pill dari zaman kuno, bahan yang sama, teknik yang sama, namun dengan rasa yang berbeda.</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="2"/>
+		</Tags>
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="75"/>
+					<SalePrice Value="15" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="100" />
+					<SalePrice Value="25" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="100" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>0</Water>
+			<PracticeNutrition>50</PracticeNutrition>		
+			</Food>	
+			
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MagicHerb" count = "25"/>
+					<Item name = "Item_LingStone" count = "9"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Dan_JingYuan5" Parent="DanBase">
+		<ThingName>Ancient Ginseng Lingzhi Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao01</TexPath>
+		<Desc>Ginseng Lingzhi Nine Orifices Pill yang dibuat sesuai dengan metode kuno, khasiatnya jauh lebih unggul.</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="3"/>
+		</Tags>
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="100"/>
+					<SalePrice Value="20" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="150" />
+					<SalePrice Value="30" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="100" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>0</Water>
+			<PracticeNutrition>100</PracticeNutrition>		
+			</Food>	
+			
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "25"/>
+					<Item name = "Item_GanodermaLucidum" count = "25"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Dan_JingYuan6" Parent="DanBase">
+		<ThingName>Ancient Blood Dragon Powder</ThingName>
+		<TexPath>res/Sprs/object/object_HemostaticDrug04</TexPath>
+		<Desc>Blood Dragon Powder yang dibuat sesuai metode kuno, mungkin telah diwariskan selama lebih dari 2000 hari semenjak kemunculannya?!.</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="4"/>
+		</Tags>
+		<Rate>7</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="200"/>
+					<SalePrice Value="40" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="300" />
+					<SalePrice Value="60" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="100" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>0</Water>
+			<PracticeNutrition>500</PracticeNutrition>		
+			</Food>	
+			
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MonsterBlood" count = "7"/>
+					<Item name = "Item_MagicHerb" count = "49"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Dan_JingYuan7" Parent="DanBase">
+		<ThingName>Sekantong Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>Sekantong Essence Pill dari zaman kuno, bahan yang sama, teknik yang sama, rasa yang berbeda, serta biaya pengemasan sebesar sepuluh Spirit Stone.</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="2"/>
+		</Tags>
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="750"/>
+					<SalePrice Value="150" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1000" />
+					<SalePrice Value="250" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>0</Water>
+			<PracticeNutrition>500</PracticeNutrition>		
+			</Food>	
+			
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MagicHerb" count = "250"/>
+					<Item name = "Item_LingStone" count = "100"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Dan_JingYuan8" Parent="DanBase">
+		<ThingName>Sekantong Ginseng Lingzhi Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao01</TexPath>
+		<Desc>Sekantong Ginseng Lingzhi Nine Orifices Pill yang dibuat sesuai metode kuno, satu butir saja berkhasiat tinggi, satu kantong berkhasiat sepuluh kali lipat lebih hebat, biaya kemas sepuluh Spirit Stone, harga jujur tanpa tipu daya.</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="3"/>
+		</Tags>
+		<Rate>6</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="1000"/>
+					<SalePrice Value="200" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="1500" />
+					<SalePrice Value="300" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>0</Water>
+			<PracticeNutrition>1000</PracticeNutrition>		
+			</Food>	
+			
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "250"/>
+					<Item name = "Item_GanodermaLucidum" count = "250"/>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Dan_JingYuan9" Parent="DanBase">
+		<ThingName>Sepuluh bungkus Blood Dragon Powder</ThingName>
+		<TexPath>res/Sprs/object/object_HemostaticDrug04</TexPath>
+		<Desc>Paket berisi sepuluh Blood Dragon Powder yang dibuat dengan metode kuno, mungkin telah diwariskan selama lebih dari 300 hari semenjak kemunculannya?! Khasiatnya sangat kuat, jika diminum saat musim dingin bisa membuatmu ingin berlari telanjang, jika saat musim panas rasanya seperti di sauna.</Desc>	
+		<Tags>
+			<Tag Name="PracticeFood" Level="4"/>
+		</Tags>
+		<Rate>7</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<Prices>
+				<TalkType>2</TalkType>
+				<BaseCount>5</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="2000"/>
+					<SalePrice Value="400" />
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="3000" />
+					<SalePrice Value="600" />
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="1000" />
+					<SalePrice Value="0" />
+				</li>
+			</Prices>
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			
+			<Food>
+			<EatDirectable>1</EatDirectable>
+			<Nutrition>0</Nutrition>
+			<Water>0</Water>
+			<PracticeNutrition>5000</PracticeNutrition>		
+			</Food>	
+			
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MonsterBlood" count = "70"/>
+					<Item name = "Item_MagicHerb" count = "490"/>
+					<Item name = "Item_LingStone" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+</List></ThingDefs>

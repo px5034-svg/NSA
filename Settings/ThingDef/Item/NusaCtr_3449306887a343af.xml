@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_3449306887a343af" Parent="DrugBase">
+      <ThingName>Essence Of Earth</ThingName>
+      <Rate>1</Rate>
+      <TexPath>res/Sprs/object/object_HemostaticDrug04</TexPath>
+      <Color>FFFFFFFF</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Other" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Ginseng" count="10" />
+            <Item name="Item_GanodermaLucidum" count="10" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MedicineTable</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,26 @@
+﻿<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_EurekaPill" Parent="DanBase">
+      <ThingName>Eureka Pill +</ThingName>
+      <Desc>+ 2 600 000 Inspiration.</Desc>
+      <Rate>12</Rate>
+      <TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Dan_TreeEXP" count="10" />
+            <Item name="Item_SoulCrystalYou" count="3" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <TreeExp>2600000</TreeExp>
+        </Elixir>
+      </Item>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <DanFormula>NusaCtr_EurekaPill</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

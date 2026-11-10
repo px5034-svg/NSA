@@ -1,0 +1,243 @@
+<ThingDefs><List>
+<ThingDef Type="Item" Name="Item_SwiftsteelBlade" Parent="WeaponBase">
+	<ThingName>Swiftsteel Blade</ThingName>
+	<TexPath>res/Sprs/object/object_weapondao01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Pedang bermaterial ringan dengan tingkat fleksibilitas tinggi, cocok untuk serangan cepat dan teknik lincah.</Desc>
+	<Rate>4</Rate>
+		<Beauty>5</Beauty>
+	<Item Lable="Weapon">
+		<FabaoSuffix>Blade</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>
+		<BeMade>
+			<WorkToMake>100</WorkToMake>
+			<Quality>3</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+		</BeMade> 		
+	<!--	<Rot>
+			<RotSpeed>0.0005</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>-->
+		<Equip>
+			<Damage>30</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.3"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.4"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.4"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.3"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.2"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="LJpugong1" HitPoint="12"/>
+				<li Name="LJpugong2" HitPoint="10"/>
+				<li Name="LJpugong3" HitPoint="16"/>
+				<li Name="LJpugong4" HitPoint="10"/>
+			</AtkAnis>
+			<WeaponKind>Sword</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_dao1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_LongreachHuntingBow" Parent="WeaponBase">
+	<ThingName>Longreach Hunting Bow</ThingName>
+	<TexPath>res/Sprs/object/object_weapongong01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Busur yang dirancang untuk menyerang dan berburu sasaran pada jarak jauh dengan akurasi yang stabil.</Desc>
+	<Rate>2</Rate>
+		<Beauty>6</Beauty>
+	<Frags>			
+		<li Frag="Betouch" />
+	</Frags>
+	<Item Lable="Weapon">
+		<FabaoSuffix>Bow</FabaoSuffix>
+		<PhysicalLables>
+			<li>Elastic</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>250</WorkToMake>
+			<Quality>3</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+		</BeMade> 
+		<Equip>
+			<Damage>20</Damage>
+			<AttackSpeed>1</AttackSpeed>
+			<AttackRange>10</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.45"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.45"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.45"/>
+			</AtkDamage>
+			<AttackSkill>NormalAttackMissile</AttackSkill>
+			<WeaponKind>Bow</WeaponKind>
+			<AtkAnis>
+				<li Name="GGpgong1" HitPoint="18" Bip="Bip001 L Hand"/>
+			</AtkAnis>
+			<ModPath>Mod/Prop/Weapon/weapon_gong2</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_DeepfangSpear" Parent="WeaponBase">
+	<ThingName>Deepfang Spear</ThingName>
+	<TexPath>res/Sprs/object/object_weaponqiang01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Tombak panjang yang dirancang untuk serangan tusuk presisi tinggi, mampu menembus pertahanan dan menyebabkan kerusakan serius pada organ dalam target.</Desc>
+	<Rate>6</Rate>
+		<Beauty>7</Beauty>
+	<Item Lable="Weapon">
+		<FabaoSuffix>Spear</FabaoSuffix>
+		<PhysicalLables>
+			<li>Sharp</li>
+			<li>Elastic</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>350</WorkToMake>
+			<Quality>4</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+		</BeMade> 		
+		<!--<Rot>
+			<RotSpeed>0.0005</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>-->
+		<Equip>
+			<Damage>40</Damage>
+			<AttackSpeed>1.5</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.35"/>
+				<li PartKind="Flesh" Name="Puncture" Rate="0.20"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.65"/>
+				<li PartKind="Bone" Name="Fracture1" Rate="0.5"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SSpgong1" HitPoint="20"/>
+				<li Name="SSpgong2" HitPoint="24"/>
+				<li Name="SSpgong3" HitPoint="23"/>
+				<li Name="SSpgong4" HitPoint="19"/>
+			</AtkAnis>
+			<WeaponKind>Spear</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_chang3</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_BonecrushMace" Parent="WeaponBase">
+	<ThingName>Bonecrush Mace</ThingName>
+	<TexPath>res/Sprs/object/object_weaponchui01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Senjata tumpul berbobot berat yang menghasilkan dampak besar, mampu mematahkan tulang serta merusak tendon musuh dengan sekali hantam.</Desc>
+	<Rate>8</Rate>
+		<Beauty>8</Beauty>
+	<Item Lable="Weapon">
+		<FabaoSuffix>Mace</FabaoSuffix>
+		<PhysicalLables>
+			<li>Blunt</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>400</WorkToMake>
+			<Quality>4</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+		</BeMade> 		
+	<!--	<Rot>
+			<RotSpeed>0.0005</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>-->
+		<Equip>
+			<Damage>40</Damage>
+			<AttackSpeed>1.1</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Bruise2" Rate="0.8"/>
+				<li PartKind="Flesh" Name="Bruise3" Rate="0.6"/>
+				<li PartKind="Organ" Name="VisceralRupture" Rate="0.7"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.8"/>
+				<li PartKind="Bone" Name="Fracture3" Rate="0.9"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="SDpugong1" HitPoint="14"/>
+				<li Name="SDpugong2" HitPoint="13"/>
+				<li Name="SDpugong3" HitPoint="18"/>
+				<li Name="SDpugong4" HitPoint="17"/>
+			</AtkAnis>
+			<WeaponKind>Double</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_shuangshou1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_RazorboundChakram" Parent="WeaponBase">
+	<ThingName>Razorbound Chakram</ThingName>
+	<TexPath>res/Sprs/object/object_weaponhuan01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Senjata eksotis berbentuk cakram tajam yang dipasang pada sarung tinju. Dirancang untuk serangan beruntun cepat, mampu menimbulkan banyak luka dalam waktu singkat.</Desc>
+	<Rate>10</Rate>
+		<Beauty>9</Beauty>
+	<Item Lable="Weapon">
+		<FabaoSuffix>Chakram</FabaoSuffix>
+		
+		<PhysicalLables>
+			<li>Sharp</li>
+		</PhysicalLables>
+		
+		<BeMade>
+			<WorkToMake>400</WorkToMake>
+			<Quality>4</Quality>
+			<ArtDesc></ArtDesc>
+			<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+		</BeMade> 		
+		<!--<Rot>
+			<RotSpeed>0.0005</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>10</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>-->
+		<Equip>
+			<Damage>15</Damage>
+			<AttackSpeed>3.5</AttackSpeed>
+			<AttackRange>1.5</AttackRange>
+			<AtkDamage>
+				<li PartKind="Flesh" Name="Cut2" Rate="0.2"/>
+				<li PartKind="Flesh" Name="Cut3" Rate="0.10"/>
+				<li PartKind="Organ" Name="VisceralCut" Rate="0.2"/>
+				<li PartKind="Bone" Name="Fracture2" Rate="0.2"/>
+			</AtkDamage>
+			<AtkAnis>
+				<li Name="kszdpugong1" HitPoint="18"/>
+				<li Name="kszdpugong2" HitPoint="16"/>
+				<li Name="kszdpugong3" HitPoint="30"/>
+				<li Name="kszdpugong4" HitPoint="20"/>
+			</AtkAnis>
+			<WeaponKind>Glove</WeaponKind>
+			<ModPath>Mod/Prop/Weapon/weapon_huan1</ModPath>
+		</Equip>
+	</Item>
+	</ThingDef>	
+</List></ThingDefs>

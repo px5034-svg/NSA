@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_79ee4e1e5ae44ef4" Parent="TrousersBase">
+      <ThingName>Nusa Heavenly Pants</ThingName>
+      <Rate>1</Rate>
+      <Desc>Desc.</Desc>
+      <TexPath>res/Sprs/object/object_huafukuzi01</TexPath>
+      <Color>FFFFFFFF</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Trousers" Kind="Equipment">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <StuffCategories>
+            <Stuff name="Leather" />
+          </StuffCategories>
+        </BeMade>
+        <Equip>
+          <ModelID>8</ModelID>
+          <TemperatureMaxAdd>999</TemperatureMaxAdd>
+          <TemperatureMinAdd>-999</TemperatureMinAdd>
+          <NeedSex>None</NeedSex>
+        </Equip>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>TailorTable</Building>
+            <Count>100</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

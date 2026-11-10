@@ -1,0 +1,31 @@
+﻿<ThingDefs>
+	<List>
+		<ThingDef Type="Item" Name="NusaCtr_EvilEssence" Parent="DanBase">
+			<ThingName>Evil Essence +</ThingName>
+			<Desc>+720 Base Max Qi (BAddV)
+
+No Adverse Effect.
+			</Desc>
+			<ElementKind>Huo</ElementKind>
+			<Rate>12</Rate>
+			<TexPath>res/Sprs/object/object_xuesuizhi01</TexPath>
+			<Item Lable="Dan" Kind="Consumable">
+				<BeMade>
+					<CostStuffCount>1</CostStuffCount>
+					<CostItems>
+						<Item name="Item_EarthEssence1_1" count="10" />
+						<Item name="Item_SoulCrystalYou" count="2" />
+					</CostItems>
+				</BeMade>
+				<Elixir>
+					<Fesistance>0</Fesistance>
+					<Modifier>NusaCtr_EvilEssence</Modifier>
+				</Elixir>
+			</Item>
+			<ProduceMode>
+				<InitialUnlock>1</InitialUnlock>
+				<DanFormula>NusaCtr_EvilEssence</DanFormula>
+			</ProduceMode>
+		</ThingDef>
+	</List>
+</ThingDefs>

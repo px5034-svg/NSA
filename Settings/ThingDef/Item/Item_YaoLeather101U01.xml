@@ -1,0 +1,77 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_YaoLeather101U01" Parent="BossDropItemBase">
+	
+	<ThingName>A5 Cow</ThingName>
+	<TexPath>res/Sprs/object/object_yaoshourenpi01</TexPath>
+	<Desc>Kulit Dari Sapi Wagyu A5 Asli Jepang yang diCiptakan Oleh Divine Goddes Kimi.</Desc>
+	<Beauty>9</Beauty>
+	<Rate>10</Rate>	
+	<Flammability>
+		<Flammability>0</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>500</BurningPoint>
+	</Flammability>
+	
+	<Item Lable="Bone">
+		 
+		<Prices>
+			<TalkType>2</TalkType>
+			<BaseCount>10</BaseCount>
+			<li PriceTag="School">
+				<BuyPrice Value="50000"/>
+				<SalePrice Value="0" />
+			</li>
+			<li PriceTag="Trade">
+				<BuyPrice Value="75000" />
+				<SalePrice Value="0" />
+			</li>
+			<li PriceTag="Auction">
+				<BuyPrice Value="100000" />
+				<SalePrice Value="0" />
+			</li>
+		</Prices>
+		<NotRandom>1</NotRandom>
+		<FuelMultiplier>1</FuelMultiplier>
+		<BeMaterial>
+			<RateWhenBeMain>10</RateWhenBeMain>
+			<ClothesColorID>7</ClothesColorID>
+			
+			<CostMultiplier>0.3</CostMultiplier>
+			<NamePrefix>.</NamePrefix>
+			
+			<LingShieldWhenBeMain>0.05</LingShieldWhenBeMain>
+			
+			<TemperatureMaxAddWhenBeMain>34</TemperatureMaxAddWhenBeMain>
+			<TemperatureMinAddWhenBeMain>-22</TemperatureMinAddWhenBeMain>
+			
+			<ColorWhenBeMain>FFFFFFFF</ColorWhenBeMain>
+			
+			<MaxHitPointsPerNum>20</MaxHitPointsPerNum>
+			<LingNumberRate>0.7</LingNumberRate>
+			
+			<BurningPointWhenBeMain>500</BurningPointWhenBeMain>
+			<FlammabilityWhenBeMain>0</FlammabilityWhenBeMain>
+			<BeautyWhenBeMain>9</BeautyWhenBeMain>
+			
+			<WorktoMakeRate>1</WorktoMakeRate>
+			<WorktoBuildRate>1</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+			<WorkToMake>60</WorkToMake>
+			<Quality>0</Quality>
+			<CostItems>
+				<Item name = "Item_LingStone" count = "4"/>
+			</CostItems>
+		</BeMade> 
+		
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>
+	</Item>
+	</ThingDef>
+</List></ThingDefs>

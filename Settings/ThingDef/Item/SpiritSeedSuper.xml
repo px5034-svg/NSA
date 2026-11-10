@@ -1,0 +1,28 @@
+﻿<ThingDefs>
+	<List>
+		<ThingDef Type="Item" Name="NusaCtr_SpiritSeedSuper" Parent="DanBase">
+			<ThingName>Spirit Seed ++</ThingName>
+			<Desc>Same as 100 Spirit Seeds.
+Treshold : 385 000 Max Qi</Desc>
+			<Rate>12</Rate>
+			<TexPath>res/Sprs/object/object_lingyuanzhong01</TexPath>
+			<Color>990000</Color>
+			<Item Lable="Dan" Kind="Consumable">
+				<BeMade>
+					<CostStuffCount>1</CostStuffCount>
+					<CostItems>
+						<Item name="NusaCtr_SpiritSeed" count="10" />
+					</CostItems>
+				</BeMade>
+				<Elixir>
+					<Ling>1000000</Ling>
+					<Modifier>NusaCtr_SpiritSeedSuper</Modifier>
+				</Elixir>
+			</Item>
+			<ProduceMode>
+				<InitialUnlock>1</InitialUnlock>
+				<DanFormula>NusaCtr_SpiritSeedSuper</DanFormula>
+			</ProduceMode>
+		</ThingDef>
+	</List>
+</ThingDefs>

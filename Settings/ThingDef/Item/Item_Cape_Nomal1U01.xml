@@ -1,0 +1,247 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_Cape_Nomal1U01" Parent="Item_CapeBase">	
+		<ThingName>Fire Mantle</ThingName>
+		<Desc>Mantel untuk dekorasi, gaya terkenal di dunia budidaya.</Desc>
+		<Item Lable="Cape">	
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<Quality>0</Quality>
+				<ArtDesc></ArtDesc>
+				<StuffCategories>
+					<Stuff name = "Clothes"/>
+				</StuffCategories>
+				<CostStuffCount>10</CostStuffCount>
+			</BeMade>
+			<Equip>
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng002</Mat>
+					<FlowTexture>None</FlowTexture><!--Tekstur efek aliran bersifat opsional.-->
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Nomal2U01" Parent="Item_Cape_Nomal1U01">	
+		<ThingName>Cloud Mantle</ThingName>
+		<Desc>Mantel untuk dekorasi, gaya terkenal di dunia budidaya.</Desc>
+		<Item Lable="Cape">	
+			<Equip>
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng003</Mat>
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Nomal3U01" Parent="Item_Cape_Nomal1U01">	
+		<ThingName>Dark Coat</ThingName>
+		<Desc>Mantel untuk dekorasi, gaya terkenal di dunia budidaya.</Desc>
+		<Item Lable="Cape">	
+			<Equip>
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng008</Mat>
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Nomal4U01" Parent="Item_Cape_Nomal1U01">	
+		<ThingName>Bright Coat</ThingName>
+		<Desc>Mantel untuk dekorasi, gaya terkenal di dunia budidaya.</Desc>
+		<Item Lable="Cape">	
+			<Equip>
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng009</Mat>
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_Cape_Sp1U01U2" Parent="Item_CapeBase">	
+		<ThingName>Zhou Liu</ThingName>
+		<Desc>Jubah hias bermotif indah adalah tanda pemenang dalam Kontes Sihir Kunlun.</Desc>
+		<TexPath>res/Sprs/object/object_GaoJiPiFeng01</TexPath>
+		<Beauty>15</Beauty>
+		<Rate>9</Rate>
+		<Color>#EED090FF</Color>
+		<ElementKind>Mu</ElementKind>	
+		<Item Lable="Cape">	
+			<NotRandom>1</NotRandom>
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="5"/>
+					<SalePrice Value="5"/>
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="10" />
+					<SalePrice Value="3"/>
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="10000"/>
+					<SalePrice Value="0"/>
+				</li>
+			</Prices>
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<NeedUnlock>1</NeedUnlock>
+				<WorkToMake>300</WorkToMake>
+				<Quality>0</Quality>
+				<ArtDesc></ArtDesc>
+			</BeMade> 	
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng001</Mat>
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp2U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>The fire from the sky has been extinguished.</ThingName>
+		<Desc>Simbol penaklukan burung phoenix yang ganas. Desainnya adalah... Manifestasi alami dari hakikat di dalam burung phoenix yang ganas itu tampak cukup misterius.</Desc>
+		<Color>#F8AC5BFF</Color>
+		<ElementKind>Huo</ElementKind>	
+		<Item Lable="Cape">	
+			<BeMade>
+				<WorkToMake>1800</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Cape_Nomal1U01" count = "1"/>
+					<Item name = "Item_PracticeClothes089281" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<NotRandom>1</NotRandom>
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng002</Mat>
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp3U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>Cold clouds and blowing snow</ThingName>
+		<Desc>Simbol penaklukan naga ditunjukkan pada gambar. Desain pada gambar merupakan manifestasi alami dari esensi batin sang naga, dan terlihat cukup misterius.</Desc>
+		<Color>#6F8AD8FF</Color>
+		<ElementKind>Shui</ElementKind>	
+		<Item Lable="Cape">	
+			<BeMade>
+				<WorkToMake>1800</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Cape_Nomal2U3" count = "1"/>
+					<Item name = "Item_PracticeClothes089281" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<NotRandom>1</NotRandom>
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng003</Mat>
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp4U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>Good luck</ThingName>
+		<Desc>Jubah hias berpola indah adalah tanda pemenang kompetisi penempaan senjata Majelis Sihir Kunlun.</Desc>
+		<Color>#C9AD51FF</Color>
+		<Item Lable="Cape">	
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng004</Mat>
+				</CapeData>
+			</Equip>
+			<NotRandom>1</NotRandom>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp5U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>Danxi</ThingName>
+		<Desc>Jubah dekoratif bertekstur indah, dari Kunlun Tanda pemenang kompetisi alkimia di Majelis Lunfa.</Desc>
+		<Color>#E7DAA3FF</Color>
+		<Item Lable="Cape">	
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng005</Mat>
+				</CapeData>
+			</Equip>
+			<NotRandom>1</NotRandom>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp6U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>No profit</ThingName>
+		<Desc>Jubah dekoratif bertekstur indah, dari Kunlun Simbol kemenangan dalam Kompetisi Pedang Lunfa.</Desc>
+		<Color>#C2B9F0FF</Color>
+		<Item Lable="Cape">	
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng006</Mat>
+				</CapeData>
+			</Equip>
+			<NotRandom>1</NotRandom>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp7U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>All Elephants Leave Traces</ThingName>
+		<Desc>Jubah dekoratif dari dunia lain, melambangkan...\nSaat musim dingin berlalu dan musim semi tiba, segala sesuatunya menjadi hidup.</Desc>
+		<Color>#A3F6E4FF</Color>
+		<Item Lable="Cape">	
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng007</Mat>
+				</CapeData>
+			</Equip>
+			<NotRandom>1</NotRandom>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp8U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>Youchi Transformation</ThingName>
+		<Desc>Simbol mengalahkan Naga Lilin. Desainnya adalah...\nHakikat kacau dalam Naga Lilin terwujud sebagai wujud alami Yin, tampak cukup misterius.</Desc>
+		<Color>#EA4343FF</Color>
+		<Item Lable="Cape">	
+			<BeMade>
+				<WorkToMake>1800</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Cape_Nomal3U01" count = "1"/>
+					<Item name = "Item_PracticeClothes089281" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<NotRandom>1</NotRandom>
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng008</Mat>
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp9U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>Mingyu Hanguang</ThingName>
+		<Desc>Simbol penaklukan Naga Lilin digambarkan sebagai manifestasi alami dari hakikat kacau dalam Naga Lilin, yang berubah menjadi Yang, dan tampak cukup mistis.</Desc>
+		<Color>#F2F6FFFF</Color>
+		<Item Lable="Cape">	
+			<BeMade>
+				<WorkToMake>1800</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Cape_Nomal3U01" count = "1"/>
+					<Item name = "Item_PracticeClothes089281" count = "1"/>
+				</CostItems>
+			</BeMade>
+			<NotRandom>1</NotRandom>
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng009</Mat>
+				</CapeData>
+			</Equip>
+		</Item>	
+	</ThingDef>
+	<ThingDef Type="Item" Name="Item_Cape_Sp10U3" Parent="Item_Cape_Sp1U01U2">	
+		<ThingName>Taoisme</ThingName>
+		<Desc>Jubah hias bermotif indah ini merupakan tanda kemenangan dalam wacana Majelis Dharma Kunlun. Dikatakan: "Berpegang teguh pada Jalan kuno untuk mengatur masa kini; pahamilah awal mula zaman kuno, inilah yang disebut tata cara Jalan.</Desc>
+		<Color>#BF8578FF</Color>
+		<ElementKind>None</ElementKind>	
+		<Item Lable="Cape">	
+			<Equip>		
+				<CapeData>
+					<Mat>CapeMat/CapeBase_pifeng010</Mat>
+				</CapeData>
+			</Equip>
+			<NotRandom>1</NotRandom>
+		</Item>	
+	</ThingDef>
+</List></ThingDefs>

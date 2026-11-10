@@ -1,0 +1,20 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_Dan_Epiphany" Parent="DrugBase">
+		<ThingName>Quality Epiphany Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao05</TexPath>
+		<Desc>Applies the effects of the NPC epiphany which raises the quality of various crafting work.</Desc>
+		<Item Lable="Dan">
+			<Elixir>
+				<Modifier>Modifier_Epiphany_Crafting</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Healroot" count = "10"/>
+					<Item name = "Item_IronRock" count = "10"/>
+					<Item name = "Item_Cotton" count = "10"/>
+				</CostItems>
+			</BeMade>
+		</Item>
+	</ThingDef>
+</List></ThingDefs>

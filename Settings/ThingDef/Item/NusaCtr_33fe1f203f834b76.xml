@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_33fe1f203f834b76" Parent="DanBase">
+      <ThingName>Azure Blood</ThingName>
+      <Rate>6</Rate>
+      <Desc>Breakthough set at 10000% increase chance, useful if your tired of wating for seasons and good feng shui.</Desc>
+      <TexPath>res/Sprs/object/object_youpo</TexPath>
+      <Color>33ffff</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_MonsterBlood" count="1" />
+            <Item name="Item_SilverGrit" count="1" />
+            <Item name="Item_StoneEssenceDrug" count="1" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>999</BaseCount>
+          <Fixed>1</Fixed>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="1000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_4094c1d457324ac9</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>33ffff</Color>
+      </Light>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <WorldDrop>1</WorldDrop>
+        <Businessman>1</Businessman>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>56d456bf-ef77-42bb-81ab-3a6865c252c1</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_33fe1f203f834b76</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

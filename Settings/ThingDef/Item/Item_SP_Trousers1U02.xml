@@ -1,0 +1,106 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Item" Name="Item_SP_Trousers1U02" Parent="TrousersBase">
+	<ThingName>Sect Pant Uniform(M)</ThingName>
+	<TexPath>res/Sprs/object/object_mianku01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Celana Utama Sect.</Desc>
+	<Rate>9</Rate>
+	<Beauty>15</Beauty>
+	<MaxHitPoints>300</MaxHitPoints>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>1000</BurningPoint>
+	</Flammability>
+	<Item Lable="Trousers">
+		<NotRandom>1</NotRandom>
+			<Prices>
+				<TalkType>1</TalkType>
+				<BaseCount>1</BaseCount>
+				<li PriceTag="School">
+					<BuyPrice Value="5"/>
+					<SalePrice Value="5"/>
+				</li>
+				<li PriceTag="Trade">
+					<BuyPrice Value="10" />
+					<SalePrice Value="50"/>
+				</li>
+				<li PriceTag="Auction">
+					<BuyPrice Value="10000"/>
+					<SalePrice Value="0"/>
+				</li>
+			</Prices>
+			<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>150</WorkToMake>
+			<Quality>100</Quality>
+			<ArtDesc></ArtDesc>
+			<StuffCategories>
+				<Stuff name = "Leather"/>
+				<Stuff name = "Cloth"/>
+				<Stuff name = "Bone"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade> 	
+		<Equip>
+			<NeedSex>Male</NeedSex>
+			<ModelID>3</ModelID>
+			<TemperatureMaxAdd>350</TemperatureMaxAdd>
+			<TemperatureMinAdd>-150</TemperatureMinAdd>
+			<ToolModifier>Modifier_Item_SP_Trousers1</ToolModifier>
+		</Equip> 
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>		
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_SP_Trousers1U01" Parent="TrousersBase">
+	<ThingName>Sect Pant Uniform (F)</ThingName>
+	<TexPath>res/Sprs/object/object_mianku01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Celana Utama Sect.</Desc>
+	<Rate>9</Rate>
+	<Beauty>15</Beauty>
+	<MaxHitPoints>300</MaxHitPoints>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>1000</BurningPoint>
+	</Flammability>
+	<Item Lable="Trousers">
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>150</WorkToMake>
+			<Quality>100</Quality>
+			<ArtDesc></ArtDesc>
+			<StuffCategories>
+				<Stuff name = "Leather"/>
+				<Stuff name = "Cloth"/>
+				<Stuff name = "Bone"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade> 	
+		<Equip>
+			<NeedSex>Female</NeedSex>
+			<ModelID>3</ModelID>
+			<TemperatureMaxAdd>350</TemperatureMaxAdd>
+			<TemperatureMinAdd>-150</TemperatureMinAdd>
+			<ToolModifier>Modifier_Item_SP_Trousers1</ToolModifier>
+		</Equip> 
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>		
+	</Item>
+	</ThingDef>
+	
+</List></ThingDefs>

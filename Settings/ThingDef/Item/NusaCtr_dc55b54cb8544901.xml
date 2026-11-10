@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_dc55b54cb8544901" Parent="DanBase">
+      <ThingName>Defiled Blood</ThingName>
+      <Rate>9</Rate>
+      <Desc>Blood from demon beasts that has been further refined with all sorts of wicked ingredients. has the potention to cripple your cultivations but can inspire even the dullest of cultivators. </Desc>
+      <TexPath>res/Sprs/object/object_HULUdanyao03</TexPath>
+      <Color>3366cc</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_MonsterBlood" count="20" />
+            <Item name="Item_MagicHerb" count="100" />
+            <Item name="Item_EarthEssence1" count="4" />
+            <Item name="Item_Dan_TreeEXP" count="1" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <li />
+            <BuyPrice Value="1000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="1500" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="500" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0.5</Fesistance>
+          <Ling>40000</Ling>
+          <Modifier>NusaCtr_55a96529e21e4296</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>3366cc</Color>
+      </Light>
+      <ProduceMode>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>9cd2edf8-b2b1-4164-a8bf-6f0be9a620be</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_dc55b54cb8544901</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

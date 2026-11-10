@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_Ganoderma" Parent="DanBase">
+      <ThingName>Ganoderma +</ThingName>
+      <Desc>+1000 Max Qi (AddV)</Desc>
+      <ElementKind>Mu</ElementKind>
+      <Rate>12</Rate>
+      <TexPath>res/Sprs/object/object_zhicao01</TexPath>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_GanodermaLucidum" count="100" />
+            <Item name="Item_PurpleGanodermaLucidum" count="10" />
+            <Item name="Item_SoulCrystalYou" count="6" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Ling>1000</Ling>
+          <Modifier>NusaCtr_Ganoderma</Modifier>
+        </Elixir>
+      </Item>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <DanFormula>NusaCtr_Ganoderma</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

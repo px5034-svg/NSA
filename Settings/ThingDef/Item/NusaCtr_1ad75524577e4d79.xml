@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_1ad75524577e4d79" Parent="OtherEquipBase">
+      <ThingName>Nusa Qi Vase</ThingName>
+      <Rate>1</Rate>
+      <Desc>Massively boosts your Qi Regenerations Base Values.
+Endgame Item.</Desc>
+      <TexPath>res/Sprs/object/object_lingsuizhi01</TexPath>
+      <Color>66ffff</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Tool" Kind="Equipment">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Dan_Ling" count="10" />
+            <Item name="Item_Dan_DredgeQi" count="10" />
+            <Item name="Item_Dan_Ling3" count="5" />
+            <Item name="Item_DarksteelBlock" count="10" />
+            <Item name="Item_StarEssenceBlock" count="10" />
+            <Item name="Item_SilverBlock" count="10" />
+          </CostItems>
+          <StuffCategories>
+            <Stuff name="MetalBlock" />
+          </StuffCategories>
+        </BeMade>
+        <Equip>
+          <Modifier>NusaCtr_b567b2d527074122</Modifier>
+        </Equip>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <Light>
+        <Color>66ffff</Color>
+      </Light>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>HandWorkTable</Building>
+            <Count>1</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_b44c5599e93e483d" Parent="DanBase">
+      <ElementKind>Shui</ElementKind>
+      <Element>
+        <Kind>Shui</Kind>
+      </Element>
+      <ThingName>Nusa Vitality Elixir IV</ThingName>
+      <Rate>4</Rate>
+      <Desc>The tier 4 version of Dragon's Vitality gives instant Qi regen of 400k. cheap usefull for breakthroughs</Desc>
+      <TexPath>res/Sprs/object/object_jiaolongdan01</TexPath>
+      <Color>ccffff</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingCrystal" count="4" />
+            <Item name="Item_MonsterBlood" count="1" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>999</BaseCount>
+          <Fixed>1</Fixed>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="400" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>400000</Ling>
+          <Modifier>NusaCtr_e5f9fc46863b41dc</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>ccffff</Color>
+      </Light>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <WorldDrop>1</WorldDrop>
+        <Businessman>1</Businessman>
+        <DropCount>8</DropCount>
+        <DropRate>0.1</DropRate>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>56d456bf-ef77-42bb-81ab-3a6865c252c1</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_b44c5599e93e483d</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

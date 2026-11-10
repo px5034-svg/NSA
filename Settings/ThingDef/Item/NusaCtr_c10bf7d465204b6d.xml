@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_c10bf7d465204b6d" Parent="DanBase">
+      <ElementKind>Jin</ElementKind>
+      <Element>
+        <Kind>Jin</Kind>
+      </Element>
+      <ThingName>Limitless</ThingName>
+      <Rate>12</Rate>
+      <Desc>A pill formed from the remains of many ancient beasts.</Desc>
+      <TexPath>res/Sprs/object/object_xianshixienian01</TexPath>
+      <Color>999933</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_BossLong_Jiao" count="1" />
+            <Item name="Item_BossFeng_Meat" count="4" />
+            <Item name="Item_BossLong_Meat" count="4" />
+            <Item name="Item_BossZhuLong_Meat" count="4" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>1</BaseCount>
+          <Fixed>1</Fixed>
+          <li />
+            <BuyPrice Value="1000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="100000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="500" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>500000</Ling>
+          <Modifier>NusaCtr_802b28a3291341b4</Modifier>
+          <DiscipleOnly>1</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>999933</Color>
+      </Light>
+      <ProduceMode>
+        <Businessman>1</Businessman>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>950e4403-1687-421b-abae-e458b208de9b</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_c10bf7d465204b6d</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

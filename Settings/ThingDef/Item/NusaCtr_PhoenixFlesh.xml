@@ -1,0 +1,30 @@
+﻿<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_PhoenixFlesh" Parent="DanBase">
+      <ThingName>Phoenix Flesh +</ThingName>
+      <Desc>+435 Base Max Qi (BAddV)</Desc>
+      <ElementKind>Huo</ElementKind>
+      <Rate>12</Rate>
+      <TexPath>res/Sprs/object/object_xionghuangxuerou01</TexPath>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_BossFeng_Meat" count="10" />
+            <Item name="Item_SoulCrystalYou" count="3" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Fesistance>0</Fesistance>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_PhoenixFlesh</Modifier>
+        </Elixir>
+      </Item>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <DanFormula>NusaCtr_PhoenixFlesh</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

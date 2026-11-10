@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_7ddc2c9f9a9f4f39" Parent="DanBase">
+      <ThingName>Against the Heavens</ThingName>
+      <Rate>12</Rate>
+      <Desc>Elixer that spits at heaven's will, through this elixir one can deney tribulations. Say goodbye to tribulations</Desc>
+      <TexPath>res/Sprs/object/object_xianshishennian01</TexPath>
+      <Color>ff00ff</Color>
+      
+      <DownMod>1</DownMod>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_Dan_Ling3" count="1" />
+            <Item name="Item_XianBone" count="1" />
+            <Item name="Item_ExtremeJade" count="1" />
+            <Item name="Item_SkyStone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Prices>
+          <TalkType>6</TalkType>
+          <BaseCount>8</BaseCount>
+          <Fixed>1</Fixed>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="5000" />
+            <SalePrice Value="0" />
+          </li>
+          <li />
+            <BuyPrice Value="0" />
+            <SalePrice Value="0" />
+          </li>
+        </Prices>
+        <Food>
+          <Nutrition>0</Nutrition>
+          <Water>0</Water>
+          <PracticeNutrition>0</PracticeNutrition>
+        </Food>
+        <Elixir>
+          <ZhuJi>0</ZhuJi>
+          <Ling>0</Ling>
+          <Modifier>NusaCtr_dce791ad88904801</Modifier>
+          <DiscipleOnly>0</DiscipleOnly>
+        </Elixir>
+      </Item>
+      <Light>
+        <Color>ff00ff</Color>
+      </Light>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <Businessman>1</Businessman>
+        <Learn>1</Learn>
+        <Esotericas>
+          <li>5e723a28-516d-4bc2-8557-3fd5458266dd</li>
+        </Esotericas>
+        <DanFormula>FORMUL_NusaCtr_7ddc2c9f9a9f4f39</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

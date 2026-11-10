@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="Item_Dan_Sample" Parent="DrugBase">
+      <ThingName>Sample Pill</ThingName>
+      <Rate>1</Rate>
+      <Desc>Efek permanen: Mental State +500, Qi Absorb +1000%, Delay Tribulation selama 28 hari</Desc>
+      <TexPath>res/Sprs/object/object_DAdanyao02</TexPath>
+      <Color>FFFFFFFF</Color>
+      <OtherWorld>1</OtherWorld>
+      <DownMod>1</DownMod>
+      <Item Lable="Drug" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_LingStone" count="1" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Modifier>Modifier_SamplePills</Modifier>
+        </Elixir>
+      </Item>
+      <CostStuffCount>1</CostStuffCount>
+      <ProduceMode>
+        <ProduceBuildings>
+          <li>
+            <Building>MedicineTable</Building>
+            <Count>3</Count>
+          </li>
+        </ProduceBuildings>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

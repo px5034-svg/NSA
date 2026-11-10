@@ -1,0 +1,134 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_PracticeClothes089281" Parent="ClothesBase">
+	<ThingName>Sect Uniform</ThingName>
+	<TexPath>res/Sprs/object/object_mianyi01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Seragam standar suatu sekte memungkinkan seseorang untuk tetap relatif hangat, tetapi tidak terlalu memungkinkan sirkulasi udara.</Desc>
+	<Rate>9</Rate>
+	<Beauty>15</Beauty>
+	<MaxHitPoints>300</MaxHitPoints>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>1200</BurningPoint>
+	</Flammability>
+	<Item Lable="Clothes">
+		
+		<BeMade>
+			<WorkToMake>40</WorkToMake>
+			<Quality>0</Quality>
+			<ArtDesc></ArtDesc>
+			<StuffCategories>
+				<Stuff name = "Leather"/>
+				<Stuff name = "Cloth"/>
+				<Stuff name = "Bone"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade> 	
+
+		<Equip>
+			<ModelID>3</ModelID>
+			<ArmorLingShield>0</ArmorLingShield>
+			
+			<TemperatureMaxAdd>800</TemperatureMaxAdd>
+			<TemperatureMinAdd>-450</TemperatureMinAdd>
+			<ToolModifier>Modifier_Item_SP_Clothes01000U1</ToolModifier>
+			
+			<PropertyScaleFromStuff>3.1</PropertyScaleFromStuff>
+		</Equip> 		
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_SP_Clothes01U03" Parent="ClothesBase">
+	<ThingName>Sect Uniform(M)</ThingName>
+	<TexPath>res/Sprs/object/object_mianyi01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Baju Utama Sect.</Desc>
+	<Rate>9</Rate>
+	<Beauty>15</Beauty>
+	<MaxHitPoints>300</MaxHitPoints>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>1200</BurningPoint>
+	</Flammability>
+	<Item Lable="Clothes">
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>40</WorkToMake>
+			<Quality>100</Quality>
+			<ArtDesc></ArtDesc>
+			<StuffCategories>
+				<Stuff name = "Leather"/>
+				<Stuff name = "Cloth"/>
+				<Stuff name = "Bone"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade> 	
+		<Equip>
+			<NeedSex>Male</NeedSex>
+			<ModelID>3</ModelID>
+			<TemperatureMaxAdd>250</TemperatureMaxAdd>
+			<TemperatureMinAdd>-100</TemperatureMinAdd>
+			<ToolModifier>Modifier_Item_SP_Clothes01000U1</ToolModifier>
+			
+			<PropertyScaleFromStuff>3.1</PropertyScaleFromStuff>
+		</Equip> 
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>		
+	</Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_SP_Clothes01U02" Parent="ClothesBase">
+	<ThingName>Sect Uniform(F)</ThingName>
+	<TexPath>res/Sprs/object/object_mianyi01</TexPath>
+	<MaxStack>1</MaxStack>
+	<Desc>Baju Utama Sect.</Desc>
+	<Rate>9</Rate>
+	<Beauty>15</Beauty>
+	<MaxHitPoints>300</MaxHitPoints>
+	<Flammability>
+		<Flammability>-1</Flammability>
+		<FlameSpawnThingDef></FlameSpawnThingDef>
+		<FlameSpawnChance>0</FlameSpawnChance>
+		<BurningPoint>1200</BurningPoint>
+	</Flammability>
+	<Item Lable="Clothes">
+		<NotRandom>1</NotRandom>
+		<BeMade>
+			<WorkToMake>40</WorkToMake>
+			<Quality>100</Quality>
+			<ArtDesc></ArtDesc>
+			<StuffCategories>
+				<Stuff name = "Leather"/>
+				<Stuff name = "Cloth"/>
+				<Stuff name = "Bone"/>
+			</StuffCategories>
+			<CostStuffCount>1</CostStuffCount>
+		</BeMade> 	
+		<Equip>
+			<NeedSex>Female</NeedSex>
+			<ModelID>3</ModelID>
+			<TemperatureMaxAdd>250</TemperatureMaxAdd>
+			<TemperatureMinAdd>-100</TemperatureMinAdd>
+			<ToolModifier>Modifier_Item_SP_Clothes01000U1</ToolModifier>
+			
+			<PropertyScaleFromStuff>3.1</PropertyScaleFromStuff>
+		</Equip> 
+		<Rot>
+			<RotSpeed>0</RotSpeed>
+			<DaysToRotStart>0</DaysToRotStart>
+			<TempMin>0</TempMin>
+			<LingMax>0</LingMax>
+		</Rot>		
+	</Item>
+	</ThingDef>
+	
+</List></ThingDefs>

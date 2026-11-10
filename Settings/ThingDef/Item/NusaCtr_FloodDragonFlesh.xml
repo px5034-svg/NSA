@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+  <List>
+    <ThingDef Type="Item" Name="NusaCtr_FloodDragonFlesh" Parent="DanBase">
+      <ThingName>Flood Dragon Flesh +</ThingName>
+      <Desc>+435 Base Max Qi (BAddV)</Desc>
+      <ElementKind>Shui</ElementKind>
+      <Rate>12</Rate>
+      <TexPath>res/Sprs/object/object_jiaolongxuerou01</TexPath>
+      <Item Lable="Dan" Kind="Consumable">
+        <BeMade>
+          <CostStuffCount>1</CostStuffCount>
+          <CostItems>
+            <Item name="Item_BossLong_Meat" count="10" />
+            <Item name="Item_SoulCrystalYou" count="3" />
+          </CostItems>
+        </BeMade>
+        <Elixir>
+          <Fesistance>0</Fesistance>
+          <Modifier>NusaCtr_FloodDragonFlesh</Modifier>
+        </Elixir>
+      </Item>
+      <ProduceMode>
+        <InitialUnlock>1</InitialUnlock>
+        <DanFormula>NusaCtr_FloodDragonFlesh</DanFormula>
+      </ProduceMode>
+    </ThingDef>
+  </List>
+</ThingDefs>

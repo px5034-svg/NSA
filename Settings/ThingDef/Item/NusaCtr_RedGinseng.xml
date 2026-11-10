@@ -1,0 +1,30 @@
+﻿<ThingDefs>
+	<List>
+		<ThingDef Type="Item" Name="NusaCtr_RedGinseng" Parent="DanBase">
+			<ThingName>Red Ginseng +</ThingName>
+			<Desc>+1000 Max Qi (AddV)</Desc>
+			<ElementKind>Mu</ElementKind>
+			<Rate>12</Rate>
+			<TexPath>res/Sprs/object/object_ginseng</TexPath>
+			<Item Lable="Dan" Kind="Consumable">
+				<BeMade>
+					<CostStuffCount>1</CostStuffCount>
+					<CostItems>
+						<Item name="Item_Ginseng" count="100" />
+						<Item name="Item_RedGinseng" count="10" />
+						<Item name="Item_SoulCrystalYou" count="6" />
+					</CostItems>
+				</BeMade>
+				<Elixir>
+					<Fesistance>0</Fesistance>
+					<Ling>1000</Ling>
+					<Modifier>NusaCtr_RedGinseng</Modifier>
+				</Elixir>
+			</Item>
+			<ProduceMode>
+				<InitialUnlock>1</InitialUnlock>
+				<DanFormula>NusaCtr_RedGinseng</DanFormula>
+			</ProduceMode>
+		</ThingDef>
+	</List>
+</ThingDefs>

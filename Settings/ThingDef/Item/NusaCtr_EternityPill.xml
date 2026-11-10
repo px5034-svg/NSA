@@ -1,0 +1,28 @@
+<ThingDefs>
+	<List>
+		<ThingDef Type="Item" Name="NusaCtr_EternityPill" Parent="DanBase">
+			<ThingName>Eternity Pill +</ThingName>
+			<Desc>+21.5% Five Bases.
++ 1080 Lifespan</Desc>
+			<Rate>12</Rate>
+			<TexPath>res/Sprs/object/object_HULUdanyao04</TexPath>
+			<Item Lable="Dan" Kind="Consumable">
+				<BeMade>
+					<CostStuffCount>1</CostStuffCount>
+					<CostItems>
+						<Item name="Item_Dan_IncreaseLife3" count="3" />
+						<Item name="Item_SoulCrystalYou" count="3" />
+					</CostItems>
+				</BeMade>
+				<Elixir>
+					<Fesistance>0</Fesistance>
+					<Modifier>NusaCtr_EternityPill</Modifier>
+				</Elixir>
+			</Item>
+			<ProduceMode>
+				<InitialUnlock>1</InitialUnlock>
+				<DanFormula>NusaCtr_EternityPill</DanFormula>
+			</ProduceMode>
+		</ThingDef>
+	</List>
+</ThingDefs>

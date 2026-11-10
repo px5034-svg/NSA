@@ -1,0 +1,30 @@
+<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_BeefUJI01" Parent="MeatBase">
+	<ThingName>Synthetic Meat</ThingName>
+	<TexPath>res/Sprs/object/object_beef</TexPath>
+	<Desc>Daging Sintetis Yang diCiptakan Oleh Divine Goddes Kimi.</Desc>
+	<Beauty>-2</Beauty>
+	<Rate>1</Rate>	
+	
+	<Item>
+		 <Food>
+			<EatDirectable>0</EatDirectable>
+			<Nutrition>35</Nutrition>
+		 </Food>
+		 <BeMaterial>
+			<CostMultiplier>1</CostMultiplier>
+			
+			<WorktoMakeRate>1</WorktoMakeRate>
+			<WorktoBuildRate>1</WorktoBuildRate>
+		</BeMaterial>
+		<BeMade>
+				<WorkToMake>5</WorkToMake>
+				<CostItems>
+					<Item name = "Item_LingStone" count = "1"/>
+				</CostItems>
+			</BeMade>
+	</Item>
+	</ThingDef>
+	
+</List></ThingDefs>

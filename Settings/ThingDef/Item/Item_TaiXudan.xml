@@ -1,0 +1,902 @@
+<ThingDefs><List>
+ 	
+     <ThingDef Type="Item" Name="Item_TaiXudan" Parent="DanBase">
+		<ThingName>Illusion Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+		<Desc>A pill filled with the essence of Illusion, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_XuanTiandan" Parent="DanBase">
+		<ThingName>Nimbus Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao02</TexPath>
+		<Desc>A pill filled with the essence of the Nimbus, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_JieMiedan" Parent="DanBase">
+		<ThingName>Tribulation Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao03</TexPath>
+		<Desc>A pill filled with the essence of Tribulation, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_JiuYangdan" Parent="DanBase">
+		<ThingName>Ignis Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao05</TexPath>
+		<Desc>A pill filled with the essence of Ignis, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_XuanYuedan" Parent="DanBase">
+		<ThingName>Aqualuna Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao06</TexPath>
+		<Desc>A pill filled with the essence of Aqualuna, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_TaiYangdan" Parent="DanBase">
+		<ThingName>Solar Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>A pill filled with the essence of the sun, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_TaiYindan" Parent="DanBase">
+		<ThingName>Lunar Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_zhuguo01</TexPath>
+		<Desc>A pill filled with the essence of the moon, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_EXJindan" Parent="DanBase">
+		<ThingName>Innate Metal Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+		<Desc>A pill with innate metal essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_EXMudan" Parent="DanBase">
+		<ThingName>Innate Wood Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao02</TexPath>
+		<Desc>A pill with innate wood essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_EXShuidan" Parent="DanBase">
+		<ThingName>Innate Water Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao03</TexPath>
+		<Desc>A pill with innate water essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_EXHuodan" Parent="DanBase">
+		<ThingName>Innate Fire Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao05</TexPath>
+		<Desc>A pill with innate fire essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_EXTudan" Parent="DanBase">
+		<ThingName>Innate Earth Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao06</TexPath>
+		<Desc>A pill with innate earth essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_FengShuiLingdan" Parent="DanBase">
+		<ThingName>Blessed Feng Shui Pill</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>A pill with Blessed Feng Shui, when devoured by a physical cultivator, it's essence is absorbed</Desc>
+        <Rate>7</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_FengShuiShadan" Parent="DanBase">
+		<ThingName>Cursed Feng Shui Essence</ThingName>
+		<TexPath>res/Sprs/object/object_jiaolongdan01</TexPath>
+		<Desc>A pill with Cursed Feng Shui, when devoured by a physical cultivator, it's essence is absorbed</Desc>
+        <Rate>7</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_Chundan" Parent="DanBase">
+		<ThingName>Germination Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>A pill containing the essence of spring, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>7</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_Xiadan" Parent="DanBase">
+		<ThingName>Blossom Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_zhuguo01</TexPath>
+		<Desc>A pill containing the essence of summer, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>7</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_Qiudan" Parent="DanBase">
+		<ThingName>Withering Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+		<Desc>A pill containing the essence of fall, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>7</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_Dongdan" Parent="DanBase">
+		<ThingName>Reversion Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao02</TexPath>
+		<Desc>A pill containing the essence of winter, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>7</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_YongYedan" Parent="DanBase">
+		<ThingName>Everlasting Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao07</TexPath>
+		<Desc>A pill containing the essence of a polar night, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_JiaoLongYuanJingdan" Parent="DanBase">
+		<ThingName>Flood Dragon Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>A pill filled with the essence of a Flood Dragon, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_XiongFengYuanJingdan" Parent="DanBase">
+		<ThingName>Phoenix Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_jiaolongdan01</TexPath>
+		<Desc>A pill filled with the essence of a Phoenix, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_ZhuLongYuanJingdan" Parent="DanBase">
+		<ThingName>Torch Dragon Essence</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>A pill filled with the essence of a Torch Dragon, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_GuShouJingXuedan" Parent="DanBase">
+		<ThingName>Ancient Beast's Blood Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_zhuguo01</TexPath>
+		<Desc>A pill containing the blood of ancient beasts, when devoured by a physical cultivator, their essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_GuShouGuFendan" Parent="DanBase">
+		<ThingName>Ancient Beast's Bone Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+		<Desc>A pill containing bones from ancient beasts, when devoured by a physical cultivator, their essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_DaYaoYuanJingdan" Parent="DanBase">
+		<ThingName>Yaoguai Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao02</TexPath>
+		<Desc>A pill filled with the essence of the Yaoguai, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_ShengMingLv1dan" Parent="DanBase">
+		<ThingName>Pure Life Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao02</TexPath>
+		<Desc>A pill filled with pure life essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>5</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_ShengMingLv2dan" Parent="DanBase">
+		<ThingName>Intrinsic Life Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao03</TexPath>
+		<Desc>A pill filled with intrinsic life essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>7</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_ShengMingLv3dan" Parent="DanBase">
+		<ThingName>Desitny Life Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao03</TexPath>
+		<Desc>A pill filled with destiny life essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_SiWangdan" Parent="DanBase">
+		<ThingName>Wraith Breath Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao05</TexPath>
+		<Desc>A pill containing a whisp of wraith breath, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>7</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_WuHuidan" Parent="DanBase">
+		<ThingName>Filth Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao05</TexPath>
+		<Desc>A pill made from filth, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_WuXingdan" Parent="DanBase">
+		<ThingName>Ethereal Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao06</TexPath>
+		<Desc>A pill filled with ethereal essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+<ThingDef Type="Item" Name="Item_XianDaoJingHuadan" Parent="DanBase">
+		<ThingName>Immortal Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao07</TexPath>
+		<Desc>A pill filled with the essence of immortals, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>9</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_XianSuidan" Parent="DanBase">
+		<ThingName>Immortal Marrow Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao07</TexPath>
+		<Desc>A pill containing the marrow of an Immortal, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+	
+    <ThingDef Type="Item" Name="Item_ShenSuidan" Parent="DanBase">
+		<ThingName>Divine Marrow Pill</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>A pill containing the marrow of the divine, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_BaBaodan" Parent="DanBase">
+		<ThingName>Universe Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_jiaolongdan01</TexPath>
+		<Desc>A pill containing the essence of the Universe, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_WanDaodan" Parent="DanBase">
+		<ThingName>Genesis Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_XIAOdanyao02</TexPath>
+		<Desc>A pill containing the essence of genesis, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_QiQingdan" Parent="DanBase">
+		<ThingName>Yin Yang Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_zhuguo01</TexPath>
+		<Desc>A pill containing the essense of Yin and Yang, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_ZhouTiandan" Parent="DanBase">
+		<ThingName>Spacetime Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao01</TexPath>
+		<Desc>A pill that warps the very fabric of space, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_XuanYangdan" Parent="DanBase">
+		<ThingName>Begin-End Essence</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao02</TexPath>
+		<Desc>A pill of the beginning and the end, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_Jiandan" Parent="DanBase">
+		<ThingName>Life-Death Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao03</TexPath>
+		<Desc>A pill containing essence of life and death, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_LingYudan" Parent="DanBase">
+		<ThingName>Thriving Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao05</TexPath>
+		<Desc>A pill with a very thriving essence contained within, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_WanGudan" Parent="DanBase">
+		<ThingName>Nullification Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao06</TexPath>
+		<Desc>A pill with null essence, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_XuanCidan" Parent="DanBase">
+		<ThingName>Desolation Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_DAdanyao07</TexPath>
+		<Desc>A pill that holds the essence of desolation, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_QiShadan" Parent="DanBase">
+		<ThingName>Obliteration Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_FENdanyao04</TexPath>
+		<Desc>A pill containing the essence of Obliteration when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+
+    <ThingDef Type="Item" Name="Item_XuanYindan" Parent="DanBase">
+		<ThingName>Destiny Essence Pill</ThingName>
+		<TexPath>res/Sprs/object/object_jiaolongdan01</TexPath>
+		<Desc>A pill containing the essence of destiny, when devoured by a physical cultivator, the essence is absorbed</Desc>
+        <Rate>12</Rate>
+		<Beauty>100</Beauty>
+		<Item Lable="Dan">
+			<NotRandom>1</NotRandom>
+			<BeMade>
+				<WorkToMake>20</WorkToMake>
+				<CostItems>
+					<Item name="Item_Pear" count="1" />
+				</CostItems>
+			</BeMade> 
+            <DevourDatas>
+				<li />
+            </DevourDatas> 
+        </Item>
+	</ThingDef>
+</List></ThingDefs>
