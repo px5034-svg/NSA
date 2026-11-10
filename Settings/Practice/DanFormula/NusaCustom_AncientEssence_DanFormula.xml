@@ -1,0 +1,51 @@
+﻿<DanFormulas><List>
+	
+	<!--古法精元丹-->
+	<Dan Name="Dan_JingYuan4">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_JingYuan4</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--古法参芝丸-->
+	<Dan Name="Dan_JingYuan5">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_JingYuan5</ItemName>
+		<Level>6</Level>
+		<SuccessRate>0.75</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--古法血竭散-->
+	<Dan Name="Dan_JingYuan6">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_JingYuan6</ItemName>
+		<Level>12</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--一包精元丹-->
+	<Dan Name="Dan_JingYuan7">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_JingYuan7</ItemName>
+		<Level>1</Level>
+		<SuccessRate>0.9</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--一包参芝丸-->
+	<Dan Name="Dan_JingYuan8">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_JingYuan8</ItemName>
+		<Level>6</Level>
+		<SuccessRate>0.75</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--十副血竭散-->
+	<Dan Name="Dan_JingYuan9">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_JingYuan9</ItemName>
+		<Level>12</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+</List></DanFormulas>

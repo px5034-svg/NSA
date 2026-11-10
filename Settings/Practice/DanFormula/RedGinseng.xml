@@ -1,0 +1,11 @@
+<DanFormulas>
+  <List>
+    <Dan Name="NusaCtr_RedGinseng">
+      <SuccessRate>0</SuccessRate>
+      <ItemName>NusaCtr_RedGinseng</ItemName>
+      <Level>1</Level>
+      <Count>0.1</Count>
+      <Normal>1</Normal>
+    </Dan>
+  </List>
+</DanFormulas>

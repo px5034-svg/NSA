@@ -1,0 +1,11 @@
+<DanFormulas>
+  <List>
+    <Dan Name="NusaCtr_EvilEssence">
+      <SuccessRate>0</SuccessRate>
+      <ItemName>NusaCtr_EvilEssence</ItemName>
+      <Level>1</Level>
+      <Count>0.1</Count>
+      <Normal>1</Normal>
+    </Dan>
+  </List>
+</DanFormulas>

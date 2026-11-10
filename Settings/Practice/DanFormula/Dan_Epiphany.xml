@@ -1,0 +1,11 @@
+<DanFormulas><List>
+
+	<Dan Name="Dan_Epiphany">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_Epiphany</ItemName>
+		<Level>2</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+
+</List></DanFormulas>

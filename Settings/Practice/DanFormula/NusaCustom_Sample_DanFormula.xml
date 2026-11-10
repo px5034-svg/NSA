@@ -1,0 +1,11 @@
+<DanFormulas><List>
+
+	<Dan Name="Dan_SamplePills">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_SamplePills</ItemName>
+		<Level>2</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+
+</List></DanFormulas>

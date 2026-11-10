@@ -1,0 +1,223 @@
+<DanFormulas><List>
+
+	<!--HeavenflowElixir-->
+	<Dan Name="Dan_HeavenflowElixir">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_HeavenflowElixir</ItemName>
+		<Level>9</Level>
+		<SuccessRate>0.4</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	<!--HeavenboundRevivalPill-->
+	<Dan Name="Dan_HeavenboundRevivalPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_HeavenboundRevivalPill</ItemName>
+		<Level>18</Level>
+		<SuccessRate>-0.8</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--CelestialQiSurgePowderV6-->
+	<Dan Name="Dan_CelestialQiSurgePowderV6">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_CelestialQiSurgePowderV6</ItemName>
+		<Level>15</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+		<!--CelestialQiSurgePowder-->
+	<Dan Name="Dan_CelestialQiSurgePowder">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_CelestialQiSurgePowder</ItemName>
+		<Level>15</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+		<!--CelestialQiSurgePowderV2-->
+	<Dan Name="Dan_CelestialQiSurgePowderV2">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_CelestialQiSurgePowderV2</ItemName>
+		<Level>15</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--CelestialQiSurgePowderV3-->
+	<Dan Name="Dan_CelestialQiSurgePowderV3">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_CelestialQiSurgePowderV3</ItemName>
+		<Level>15</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--CelestialQiSurgePowderV4-->
+	<Dan Name="Dan_CelestialQiSurgePowderV4">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_CelestialQiSurgePowderV4</ItemName>
+		<Level>15</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Dan>	
+	<!--CelestialQiSurgePowderV5-->
+	<Dan Name="Dan_CelestialQiSurgePowderV5">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_CelestialQiSurgePowderV5</ItemName>
+		<Level>15</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Dan>	
+		<!--VitalResinEssencePowder-->
+	<Dan Name="Dan_VitalResinEssencePowder">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_VitalResinEssencePowder</ItemName>
+		<Level>12</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>6</Count>
+	</Dan>
+		<!--Mind-CleansingPurityPill-->
+	<Dan Name="Dan_Mind-CleansingPurityPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_Mind-CleansingPurityPill</ItemName>
+		<Level>8</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>6</Count>
+	</Dan>
+		<!--DilutedMindResinPowder-->
+	<Dan Name="Dan_DilutedMindResinPowder">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_DilutedMindResinPowder</ItemName>
+		<Level>10</Level>
+		<SuccessRate>-1</SuccessRate>
+		<Count>6</Count>
+	</Dan>
+		<!--Soul-AnchorAscensionPill-->
+	<Dan Name="Dan_Soul-AnchorAscensionPill">
+      <Normal>0</Normal>
+      <ItemName>Item_Dan_Soul-AnchorAscensionPill</ItemName>
+      <Level>20</Level>
+      <SuccessRate>-1.2</SuccessRate>
+      <Count>0.1</Count>
+    </Dan>
+    <!--SpiritCoreExpansionPill-->
+	<Dan Name="Dan_SpiritCoreExpansionPill">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_SpiritCoreExpansionPill</ItemName>
+		<Level>2</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	    <!--RealmInsightInnerPill-->
+	<Dan Name="Dan_RealmInsightInnerPill">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_RealmInsightInnerPill</ItemName>
+		<Level>2</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--BlissfogTranquilityPill-->
+	<Dan Name="Dan_BlissfogTranquilityPill">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_BlissfogTranquilityPill</ItemName>
+		<Level>2</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--EurekaInsightPill-->
+	<Dan Name="Dan_EurekaInsightPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_EurekaInsightPill</ItemName>
+		<Level>12</Level>
+		<SuccessRate>-0.2</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	<!--InsightCatalystPill-->
+	<Dan Name="Dan_InsightCatalystPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_InsightCatalystPill</ItemName>
+		<Level>12</Level>
+		<SuccessRate>-0.2</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	<!--QiSustenancePill-->
+	<Dan Name="Dan_QiSustenancePill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_QiSustenancePill</ItemName>
+		<Level>2</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>9</Count>
+	</Dan>
+	<!--CondensedNutrientPill-->
+	<Dan Name="Dan_CondensedNutrientPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_CondensedNutrientPill</ItemName>
+		<Level>2</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>9</Count>
+	</Dan>
+	<!--QiCirculationPill-->
+	<Dan Name="Dan_QiCirculationPill">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_QiCirculationPill</ItemName>
+		<Level>4</Level>
+		<SuccessRate>0.6</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	<!--FivefoldMeridianRemedyPill-->
+	<Dan Name="Dan_FivefoldMeridianRemedyPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FivefoldMeridianRemedyPill</ItemName>
+		<Level>2</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>9</Count>
+	</Dan>
+	<!--FivefoldAscensionPill-->
+	<Dan Name="Dan_FivefoldAscensionPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_FivefoldAscensionPill</ItemName>
+		<Level>16</Level>
+		<SuccessRate>-0.6</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	<!--SoulforgeReconstitutionPill-->
+	<Dan Name="Dan_SoulforgeReconstitutionPill">
+		<Normal>0</Normal>
+		<ItemName>Item_Dan_SoulforgeReconstitutionPill</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.2</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--PillMentalStateBoost-->
+<Dan Name="Dan_PillMentalStateBoost">
+  <Normal>0</Normal>
+  <ItemName>Item_Dan_PillMentalStateBoost</ItemName>
+  <Level>20</Level>
+  <SuccessRate>-1</SuccessRate>
+  <Count>1</Count>
+  <li Name="BaseMentalState" AddP="0" AddV="100" BAddP="0" BAddV="0" Type="1" />
+</Dan>
+
+<!--PillMentalStateAndDivinityResist-->
+<Dan Name="Dan_PillSaktiDewa">
+  <Normal>0</Normal>
+  <ItemName>Item_Dan_PillSaktiDewa</ItemName>
+  <Level>20</Level>
+  <SuccessRate>-1</SuccessRate>
+  <Count>1</Count>
+  <!--Efek 1: Meningkatkan Mental State sebesar 100 secara permanen (Type="1" = permanen)-->
+  <li Name="BaseMentalState" AddP="0" AddV="100" BAddP="0" BAddV="0" Type="1" />
+  <!--Efek 2: Mengurangi dampak negatif Keilahian (Mengurangi Mood Multiplier)-->
+  <li Name="GodPractice_GodPowerEffect" AddP="0.2" AddV="0" BAddP="0" BAddV="0" Type="1" />
+</Dan>
+
+<!--PillQiAbsorptionBoost5Days-->
+<Dan Name="Dan_PillKecepatanQi5Hari">
+  <Normal>0</Normal>
+  <ItemName>Item_Dan_PillKecepatanQi5Hari</ItemName>
+  <Level>10</Level>
+  <SuccessRate>-1</SuccessRate>
+  <Count>1</Count>
+  <!--Efek Sementara 5 Hari: Meningkatkan Kecepatan Absorpsi Qi sebesar 500% (Type="0" = sementara, Time="120" = 5 hari)-->
+  <li Name="LingAbsorbSpeed" AddP="5" AddV="0" BAddP="0" BAddV="0" Type="0" Time="120" />
+</Dan>
+
+
+</List></DanFormulas>

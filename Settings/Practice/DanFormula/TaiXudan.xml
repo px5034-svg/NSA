@@ -1,0 +1,316 @@
+<DanFormulas><List>
+	<Dan Name="TaiXudan"> <!-- Thái hư -->
+		<Normal>1</Normal>
+		<ItemName>Item_TaiXudan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="XuanTiandan"> <!-- Huyền thiên tử khí -->
+		<Normal>1</Normal>
+		<ItemName>Item_XuanTiandan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="JieMiedan"> <!-- Kiếp diệt tinh túy -->
+		<Normal>1</Normal>
+		<ItemName>Item_JieMiedan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="JiuYangdan"> <!-- Cửu dương -->
+		<Normal>1</Normal>
+		<ItemName>Item_JiuYangdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="XuanYuedan"> <!-- Huyền nguyệt -->
+		<Normal>1</Normal>
+		<ItemName>Item_XuanYuedan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="TaiYangdan"> <!-- Thái dương -->
+		<Normal>1</Normal>
+		<ItemName>Item_TaiYangdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="TaiYindan"> <!-- Thái âm -->
+		<Normal>1</Normal>
+		<ItemName>Item_TaiYindan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="EXJindan"> <!-- Tiên thiên Kim -->
+		<Normal>1</Normal>
+		<ItemName>Item_EXJindan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="EXMudan"> <!-- Tiên thiên Mộc -->
+		<Normal>1</Normal>
+		<ItemName>Item_EXMudan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="EXShuidan"> <!-- Tiên thiên Thủy -->
+		<Normal>1</Normal>
+		<ItemName>Item_EXShuidan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="EXHuodan"> <!-- Tiên thiên Hỏa -->
+		<Normal>1</Normal>
+		<ItemName>Item_EXHuodan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="EXTudan"> <!-- Tiên thiên Hỏa -->
+		<Normal>1</Normal>
+		<ItemName>Item_EXTudan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="FengShuiLingdan"> <!-- Phong thủy Linh -->
+		<Normal>1</Normal>
+		<ItemName>Item_FengShuiLingdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="FengShuiShadan"> <!-- Phong thủy Sát -->
+		<Normal>1</Normal>
+		<ItemName>Item_FengShuiShadan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="Chundan"> <!-- Manh phát -->
+		<Normal>1</Normal>
+		<ItemName>Item_Chundan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="Xiadan"> <!-- Thịnh phóng -->
+		<Normal>1</Normal>
+		<ItemName>Item_Xiadan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="Qiudan"> <!-- Suy vong -->
+		<Normal>1</Normal>
+		<ItemName>Item_Qiudan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="Dongdan"> <!-- Quy tàng -->
+		<Normal>1</Normal>
+		<ItemName>Item_Dongdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="YongYedan"> <!-- Vĩnh tịch chi tinh túy -->
+		<Normal>1</Normal>
+		<ItemName>Item_YongYedan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="JiaoLongYuanJingdan"> <!-- Giao long -->
+		<Normal>1</Normal>
+		<ItemName>Item_JiaoLongYuanJingdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="XiongFengYuanJingdan"> <!-- Hung phượng -->
+		<Normal>1</Normal>
+		<ItemName>Item_XiongFengYuanJingdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="ZhuLongYuanJingdan"> <!-- Chúc long -->
+		<Normal>1</Normal>
+		<ItemName>Item_ZhuLongYuanJingdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="GuShouJingXuedan"> <!-- Cổ thú tinh huyết -->
+		<Normal>1</Normal>
+		<ItemName>Item_GuShouJingXuedan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="DaYaoYuanJingdan"> <!-- Đại yêu nguyên tinh -->
+		<Normal>1</Normal>
+		<ItemName>Item_DaYaoYuanJingdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan><Dan Name="GuShouGuFendan"> <!-- Cổ thú cốt phấn -->
+		<Normal>1</Normal>
+		<ItemName>Item_GuShouGuFendan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="ShengMingLv1dan"> <!-- Sinh cơ -->
+		<Normal>1</Normal>
+		<ItemName>Item_ShengMingLv1dan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="ShengMingLv2dan"> <!-- Sinh mệnh bổn nguyên -->
+		<Normal>1</Normal>
+		<ItemName>Item_ShengMingLv2dan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="ShengMingLv3dan"> <!-- Tạo hóa mệnh nguyên -->
+		<Normal>1</Normal>
+		<ItemName>Item_ShengMingLv3dan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="SiWangdan"> <!-- Tử linh -->
+		<Normal>1</Normal>
+		<ItemName>Item_SiWangdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="WuHuidan"> <!-- Ô uế -->
+		<Normal>1</Normal>
+		<ItemName>Item_WuHuidan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="WuXingdan"> <!-- Vô hình -->
+		<Normal>1</Normal>
+		<ItemName>Item_WuXingdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="XianDaoJingHuadan"> <!-- Tiên đạo -->
+		<Normal>1</Normal>
+		<ItemName>Item_XianDaoJingHuadan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="XianSuidan"> <!-- Tiên túy -->
+		<Normal>1</Normal>
+		<ItemName>Item_XianSuidan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="ShenSuidan"> <!-- Thần túy -->
+		<Normal>1</Normal>
+		<ItemName>Item_ShenSuidan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="BaBaodan"> <!-- Vũ trụ -->
+		<Normal>1</Normal>
+		<ItemName>Item_BaBaodan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="WanDaodan"> <!-- Thiên địa khai tích -->
+		<Normal>1</Normal>
+		<ItemName>Item_WanDaodan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="QiQingdan"> <!-- Âm dương -->
+		<Normal>1</Normal>
+		<ItemName>Item_QiQingdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="ZhouTiandan"> <!-- Thời không diễn sinh -->
+		<Normal>1</Normal>
+		<ItemName>Item_ZhouTiandan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="XuanYangdan"> <!-- Thủy chung -->
+		<Normal>1</Normal>
+		<ItemName>Item_XuanYangdan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="Jiandan"> <!-- Sinh diệt -->
+		<Normal>1</Normal>
+		<ItemName>Item_Jiandan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="LingYudan"> <!-- Vạn linh sinh phát -->
+		<Normal>1</Normal>
+		<ItemName>Item_LingYudan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="WanGudan"> <!-- Thời không tẫn suy -->
+		<Normal>1</Normal>
+		<ItemName>Item_WanGudan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="XuanCidan"> <!-- Thiên địa quy tịch -->
+		<Normal>1</Normal>
+		<ItemName>Item_XuanCidan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="QiShadan"> <!-- Vạn vật vẫn diệt -->
+		<Normal>1</Normal>
+		<ItemName>Item_QiShadan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+	<Dan Name="XuanYindan"> <!-- Tạo hóa -->
+		<Normal>1</Normal>
+		<ItemName>Item_XuanYindan</ItemName>
+		<Level>1</Level>
+		<SuccessRate>1</SuccessRate>
+		<Count>10</Count>
+	</Dan>
+</List></DanFormulas>
