@@ -1,0 +1,23 @@
+{
+  "Name": "NusaCtr_Mobile",
+  "DisplayName": "NusaCtr Tools",
+  "GameVersion": 1.268,
+  "Version": "1.8.2",
+  "Author": "NusaCtr",
+  "UIPackage": "UI/NusaCtr",
+  "ID": "nusa_ctr_mobile_v13",
+  "Flag": 0,
+  "Tags": [
+    "NPC",
+    "Function",
+    "Usability",
+    "Mobile",
+    "Tools",
+    "QualityOfLife"
+  ],
+  "Desc": "NusaCtr Tools — full mobile toolbox for Amazing Cultivation Simulator.\n\n◆ FUNCTIONS\n• Spawn Items (packs + custom lists + Talismans)\n• Item Tools · Construction Tools\n• Time / Season / Weather · Boss Summon\n• Damage Numbers · Open Taiyi / Other Boxes\n• Fill All Ling · Clear Stuck Jobs · Cancel Blueprints\n• FPS Tools\n\n◆ NPC\n• Open Heart + Max Favor (Jianghu picker)\n• Sect Favor · Jianghu Favor (mass)\n• Mini Universe · School Capacity\n• Body / Divine Cultivation · Edit NPC\n• Instant Pet Growth · Full Pet Awakening\n• Revive NPC · Secret Treasure (bind MiBao) · Delay Heavenly Tribulation\n• Boost 5 Stats (BaseFive + skills)\n• Breakthrough menu (selected + Auto/Batch)\n• Toggle Invincible · Copy / Paste Attributes\n\n◆ MANUALS\n• Store Manuals in Library\n• Learn Cultivation Arts\n• Manual Book Tools · Bulk Esoterica\n\n◆ WORLD\n• Map Tools · Agency Unlock + Influence\n• City Event Helper (+ / − / ~ markers)\n• Merchant Tools (call walking merchants)\n• Temperature · Sect Alignment (Rep / Good / Evil)\n• Map Cleanup (weeds · trash · poop · corpses)\n• Auto Loot\n\n• Language ID / EN (main menu)\n\nBuilt for mobile ACS. Open from any NPC button: NusaCtr.",
+  "IncreasedDesc": "Full Release — NusaCtr Tools for mobile ACS.\n\nSpawn Items, NPC tools, Manuals, World tools, Language ID/EN.\nOpen from any NPC button: NusaCtr.",
+  "IsInsideCreat": true,
+  "Previews": [],
+  "version": "1.8.2"
+}
