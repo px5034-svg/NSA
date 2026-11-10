@@ -1,0 +1,35 @@
+﻿<Experiences><List>
+	<Experience Name="WellPreparedPoints1" Group="WellPreparedPoints">
+		<DisplayName>Hastily Prepared</DisplayName>
+		<Desc>Mere hours before the calamity struck, you spotted the glint of enemy steel on the horizon. The sudden silence of the forest birds was the only warning you needed. While others panicked, you snatched up what meager supplies you could reach. It wasn't much, but it might be enough to survive the night.\n\n\n[size=10]Prepared: [color=#FFDD00]+4[/color] [color=#FFAA00]Perk Points[/color].[/size]</Desc>
+		<Point>-4</Point>
+	</Experience>
+	<Experience Name="WellPreparedPoints2" Group="WellPreparedPoints">
+		<DisplayName>Adequately Prepared</DisplayName>
+		<Desc>As a trusted attendant to the Elders, you saw what others did not: the trembling hands, the hushed debates, the fading glow of the Sect's protection array. You knew the fall was imminent. With several days to spare, you quietly stockpiled resources and mapped your escape route while the rest of the school slept in ignorance.\n\n\n[size=10]Prepared: [color=#FFDD00]+14[/color] [color=#FFAA00]Perk Points[/color].[/size]
+</Desc>
+		<Point>-14</Point>
+	</Experience>
+	<Experience Name="WellPreparedPoints3" Group="WellPreparedPoints">
+		<DisplayName>Well Prepared</DisplayName>
+		<Desc>Months ago, while on a mission in the outer villages, you pieced together the truth that the sect chose to ignore: the enemy forces were uniting. The shifting winds of the Jianghu whispered of Taiyi's destruction. Trusting your gut, you spent the season liquidating assets and preparing a comprehensive survival plan long before the first war drum sounded.\n\n\n[size=10]Prepared: [color=#FFDD00]+34[/color] [color=#FFAA00]Perk Points[/color].[/size]</Desc>
+		<Point>-34</Point>
+	</Experience>
+	<Experience Name="WellPreparedPoints4" Group="WellPreparedPoints">
+		<DisplayName>Divinely Prepared</DisplayName>
+		<Desc>One night, you dreamt of fire, blood, and your own death amidst the burning ruins of Taiyi. When you awoke, reality mirrored the dream with terrifying precision. You realized this was no nightmare, but a premonition from the Heavens. You have had two full years to prepare for this exact moment. You are ready.\n\n\n[size=10]Prepared: [color=#FFDD00]+74[/color] [color=#FFAA00]Perk Points[/color].[/size]</Desc>
+		<Point>-74</Point>
+	</Experience>
+	<Experience Name="MoreDisciples1" Group="WellPreparedMoreDisciples">
+		<DisplayName>Sworn Allies</DisplayName>
+		<Desc>The path of cultivation is cold, but your bonds with your martial siblings are warm. Sensing your unease and trusting your judgment implicitly, your closest friends have agreed to abandon the sect's false sense of security. They stand ready to face the unknown by your side.\n\n\n[size=10]Prepared: [color=#3AFF00]+3[/color] Initial [color=#FFAA00]Disciples[/color].[/size]</Desc>
+		<Point>6</Point>
+		<NpcSlot>3</NpcSlot>
+	</Experience>
+	<Experience Name="MoreDisciples2" Group="WellPreparedMoreDisciples">
+		<DisplayName>Guiding Vanguard</DisplayName>
+		<Desc>Through expertise, well invested time and sheer resolve, you convinced a group of disciples. Your warning about the impending doom struck a chord in the hearts of others. They believed that being unprepared meant certain death. They have pledged to follow you, looking to you as the spearhead of their survival.\n\n\n[size=10]Prepared: [color=#3AFF00]+5[/color] Initial [color=#FFAA00]Disciples[/color].[/size]</Desc>
+		<Point>15</Point>
+		<NpcSlot>5</NpcSlot>
+	</Experience>
+</List></Experiences>
